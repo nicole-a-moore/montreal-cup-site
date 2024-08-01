@@ -2,3 +2,7 @@
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
+
+table, th {
+    border: 0px solid rgb(255, 255, 255)
+}
