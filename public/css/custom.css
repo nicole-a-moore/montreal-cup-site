@@ -3,6 +3,6 @@
  You can change the article headings, fonts, colors, etc.
 */
 
-table, th {
-    border: 0px solid rgb(255, 255, 255)
+table {
+  border: 1px #FFFFFF;
 }
