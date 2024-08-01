@@ -11,13 +11,13 @@
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/course/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/markdown-syntax/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/course/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>

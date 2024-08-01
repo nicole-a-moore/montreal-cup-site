@@ -2,6 +2,6 @@
 title: ''
 ---
 
-#### Have questions or comments? Send us a message!
+Questions or comments? 
 
-{{< form >}}
+{{< email >}}

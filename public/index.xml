@@ -23,18 +23,18 @@
       <description>The Montréal Cup is a one-of-a-kind inline and quad roller skating competition held on Rue Ontario in Hochelaga. Since 2022, this unique 3-day long event has been organized from the ground up by a team of passionate skaters and local skate shops.&#xA;During the event, a portion of Rue Ontario is transformed into a skate park that inline and quad roller skaters from around the world are invited to ride. Skaters of all skill levels, from beginners to professional athletes, travel to Montréal from far and wide to celebrate their sport by skating the park in a riveting competition.</description>
     </item>
     <item>
+      <title></title>
+      <link>http://localhost:1313/course/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/course/</guid>
+      <description> </description>
+    </item>
+    <item>
       <title>Boutique Solo Inline</title>
       <link>http://localhost:1313/blog/markdown-syntax/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;Co-organizer of the Montreal Cup&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Course Design 2024</title>
-      <link>http://localhost:1313/course/</link>
-      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/course/</guid>
-      <description> </description>
     </item>
     <item>
       <title>Rich Content</title>
@@ -69,7 +69,7 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>Have questions or comments? Send us a message! </description>
+      <description>Questions or comments?&#xA;Send us an email!</description>
     </item>
   </channel>
 </rss>

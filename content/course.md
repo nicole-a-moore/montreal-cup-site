@@ -1,5 +1,5 @@
 +++
-title = "Course Design 2024"
+title = ""
 description = "Layout of the 2024 Course"
 date = "2024-07-31"
 aliases = ["course", "course-layout"]
