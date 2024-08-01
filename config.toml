@@ -1,0 +1,68 @@
+baseURL = "https://montrealcup.com"
+title = "Montreal Cup"
+author = "nikkimoore"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+[params]
+
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  showBlog = false
+
+  [params.logo]
+    main = "img/logo/logo1.svg"
+    alt = "Montreal Cup Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-16"
+
+  [params.site]
+    name = "Montreal Cup"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "A website for the Montreal Cup"
+    meta_og_title = "Montreal Cup"
+    meta_og_type = "website"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "sponsors"
+    name = "Sponsors"
+    url = "/sponsors/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "course"
+    name = "Course"
+    url = "/course/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/montreal.cup/?hl=en"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
