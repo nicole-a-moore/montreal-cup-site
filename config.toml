@@ -62,7 +62,7 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
-    identifier = "contact"
+    identifier = "contact-us"
     name = "Contact"
-    url = "/contact/"
+    url = "/contact-us/"
     weight = 5

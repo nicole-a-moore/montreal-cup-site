@@ -66,9 +66,9 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/contact-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/contact-us/</guid>
       <description>Questions or comments?&#xA;Send us an email!</description>
     </item>
   </channel>
