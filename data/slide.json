@@ -1,38 +1,38 @@
 [
   {
     "title": "",
-    "image": "img/slide/logo.jpg"
+    "image": "/img/slide/logo.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/lauric.jpg"
+    "image": "/img/slide/lauric.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/course.jpg"
+    "image": "/img/slide/course.jpg"
   }, 
   {
     "title": "",
-    "image": "img/slide/bladies.jpg"
+    "image": "/img/slide/bladies.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/inlineprowinners.jpg"
+    "image": "/img/slide/inlineprowinners.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/quad_podium.jpg"
+    "image": "/img/slide/quad_podium.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/me_and_corado.jpg"
+    "image": "/img/slide/me_and_corado.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/quadprowinners.jpg"
+    "image": "/img/slide/quadprowinners.jpg"
   },
   {
     "title": "",
-    "image": "img/slide/volunteerteam.jpg"
+    "image": "/img/slide/volunteerteam.jpg"
   }
 ]

@@ -20,7 +20,7 @@
       <link>http://localhost:1313/fr/about/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/about/</guid>
-      <description>fr</description>
+      <description>La Coupe Montréal est une compétition de patinage à roues alignées et de patinage à quatre roues, unique en son genre, qui se déroule sur la rue Ontario, dans Hochelaga. Depuis 2022, cet événement unique de trois jours est organisé de A à Z par une équipe de patineurs passionnés et de boutiques de patinage locales.&#xA;Pendant l&amp;rsquo;événement, une partie de la rue Ontario est transformée en un parc de patinage que les patineurs à roues alignées et les patineurs à roulettes quadruples du monde entier sont invités à parcourir.</description>
     </item>
     <item>
       <title></title>
@@ -30,46 +30,18 @@
       <description></description>
     </item>
     <item>
-      <title>Boutique Solo Inline</title>
-      <link>http://localhost:1313/fr/blog/markdown-syntax/</link>
-      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;Co-organizer of the Montreal Cup&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/fr/blog/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/fr/blog/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/fr/blog/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/fr/blog/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title></title>
       <link>http://localhost:1313/fr/contact-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/contact-us/</guid>
-      <description>FR&#xA;Questions or comments?&#xA;Send us an email!</description>
+      <description> Suivez-nous sur Instagram Envoyez-nous un courriel </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/fr/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/sponsors/</guid>
+      <description> Coorganisateurs Commanditaires </description>
     </item>
   </channel>
 </rss>
