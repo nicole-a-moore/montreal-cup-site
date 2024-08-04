@@ -24,12 +24,12 @@
 <meta property="og:site_name" content="Montreal Cup" />
 <meta property="og:title" content=" | Montreal Cup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/fr/about/" />
+<meta property="og:url" content="http://192.168.0.106:1313/fr/about/" />
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="">
 
 
-<meta property="og:image" content="http://localhost:1313/">
+<meta property="og:image" content="http://192.168.0.106:1313/">
 
 <meta name="description" content="About the Montreal Cup" />
 <meta property="og:description" content="About the Montreal Cup" />
@@ -40,12 +40,19 @@
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
+
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
             
             <li class="p-2">
                 <a href="/about/" >
                     <span>About</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/register/" >
+                    <span>Resgister</span>
                 </a>
             </li>
             
@@ -70,14 +77,56 @@
         </ul>
     </div>
     <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-            <a href="http://localhost:1313/"><img alt="Montreal Cup Logo"
-                    class="h-17 mr-3" src="/img/logo/logo1.svg"></a>
-        </div>
         
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+        <div class="block lg:hidden">
+            <ul class="dropdown">
+                <a class="active" aria-current="page" href="/fr/about/">
+                    <div class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                     </div>
+                </a>              
+            </br>  
+            
+                    <div class="dropdown-content">
+                        
+                        <a href="/fr/about/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            À propos de 
+                        </a>
+                        
+                        <a href="/fr/register/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Inscrire 
+                        </a>
+                        
+                        <a href="/fr/course/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Course 
+                        </a>
+                        
+                        <a href="/fr/sponsors/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Commanditaires 
+                        </a>
+                        
+                        <a href="/fr/contact-us/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Contact 
+                        </a>
+                        
+                    </div>
+                  </ul>
         </div>
-        
+
+        <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
+            <a href="http://192.168.0.106:1313/">
+                <img src="/img/logo/logo1.svg" alt="logo">
+            </a>
+
+         </div>
+
         
         <p class = "date">
             <font size="+4"> Montréal Cup 2024 </font>
@@ -87,15 +136,7 @@
         </p>
         
 
-        <div class="block lg:hidden">
-            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
-                <span class="top"></span>
-                <span class="middle"></span>
-                <span class="bottom"></span>
-            </div>
-        </div>
-        
-        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu" >
             <div class="text-lg lg:flex-grow">
             </div>
             <div class="text-lg">
@@ -103,6 +144,11 @@
                 <a href="/fr/about/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
                     À propos de 
+                </a>
+                
+                <a href="/fr/register/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Inscrire 
                 </a>
                 
                 <a href="/fr/course/"
@@ -121,40 +167,37 @@
                 </a>
                 
             </div>
-        </div>
-
-        
-<nav>
-  <ul>
-    
-    
-      
-    
-    <li>FR</span>
-      
-      
-      <ul class="dropdown">
-        <span style="color:blue"> EN/FR </span>
-            <div class="dropdown-content">
-                
-                
-                <nav class="language-switcher">
+            
+            
+            <nav>
+                <ul>
                     
-                    
+                    <ul class="dropdown">
                         <a class="active" aria-current="page" href="/fr/about/">FR</a>
-                    
-                    
-                </nav>
-                
-        <li><a title="EN" href="http://localhost:1313/en/about/">EN</a></li>
-            </div>
-          </ul>
+                        <span style="color:blue"> EN/FR </span>
+                            <div class="dropdown-content">
+                                
+                                
+                                <nav class="language-switcher" >
+                                    
+                                    
+                                        <a class="active" aria-current="page" href="/fr/about/">FR</a>
+                                    
+                                    
+                                </nav>
+                                
+                        <li><a title="EN" href="http://192.168.0.106:1313/en/about/">EN</a></li>
+                            </div>
+                          </ul>
+                           
+                    </li>
+    
+                </ul>
+              </nav>
+    
+        </div>
         
-    </li>
-  </ul>
-</nav>
-
-
+        
     </nav>
 </header><div class="scroll-top rounded-full">
       <a href="#">
@@ -164,9 +207,9 @@
 <div class="mx-auto my-10 max-w-6xl">
   <div class="mx-3 col-span-3 lg:col-span-2 px-2">
     <h1 class="title text-5xl mb-4"></h1>
-    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p>La Coupe Montréal est une compétition de patinage à roues alignées et de patinage à quatre roues, unique en son genre, qui se déroule sur la rue Ontario, dans Hochelaga. Depuis 2022, cet événement unique de trois jours est organisé de A à Z par une équipe de patineurs passionnés et de boutiques de patinage locales.</p>
+    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p>Le Montréal Cup est une compétition de patinage à roues alignées et de patinage à quatre roues, unique en son genre, qui se déroule sur la rue Ontario, dans Hochelaga. Depuis 2022, cet événement unique de trois jours est organisé de A à Z par une équipe de patineurs passionnés et de boutiques de patinage locales.</p>
 <p>Pendant l&rsquo;événement, une partie de la rue Ontario est transformée en un parc de patinage que les patineurs à roues alignées et les patineurs à roulettes quadruples du monde entier sont invités à parcourir. Les patineurs de tous niveaux, des débutants aux athlètes professionnels, viennent à Montréal de partout pour célébrer leur sport en patinant dans le parc lors d&rsquo;une compétition captivante. L&rsquo;événement est gratuit pour le public et attire toujours une foule.</p>
-<p>Non seulement la Coupe de Montréal promeut la pratique de deux sports extrêmes réémergents, mais elle est aussi un événement qui renforce la communauté ; elle offre un espace sûr aux groupes qui ont été précédemment mis à l&rsquo;écart dans les sports extrêmes (femmes, LGBTQ+) pour les pratiquer, et elle favorise des moments qui renforcent les liens entre les individus dans la communauté du patinage. Les années précédentes, des milliers de personnes ont assisté à l&rsquo;événement et beaucoup plus ont regardé la couverture de l&rsquo;événement via des vidéos et des photographies postées sur les médias sociaux.</p>
+<p>Non seulement le Montréal Cup promeut la pratique de deux sports extrêmes réémergents, mais elle est aussi un événement qui renforce la communauté ; elle offre un espace sûr aux groupes qui ont été précédemment mis à l&rsquo;écart dans les sports extrêmes (femmes, LGBTQ+) pour les pratiquer, et elle favorise des moments qui renforcent les liens entre les individus dans la communauté du patinage. Les années précédentes, des milliers de personnes ont assisté à l&rsquo;événement et beaucoup plus ont regardé la couverture de l&rsquo;événement via des vidéos et des photographies postées sur les médias sociaux.</p>
 <p>Pour plus d&rsquo;informations, visitez notre page Instagram: <a href="https://www.instagram.com/montreal.cup/?hl=en">@montreal.cup</a>.</p>
 </div>
   </div>
@@ -175,7 +218,42 @@
   </main>
 
 
- <footer class="copy pl-8 py-5 text-grey-900 text-md text-center">
+ <footer>
+  <div class="block lg:hidden copy pl-8 py-5 text-grey-900 text-md text-center"> 
+
+  </div>
+
+
+  <div>  
+     <a class="active" aria-current="page" href="/fr/about/">FR</a>
+  </div>
+
+  <div class="block lg:hidden copy pl-8 py-5 text-grey-900 text-md text-center"> 
+      
+      <nav>
+        <ul class="dropdown">
+          <a class="active" aria-current="page" href="/fr/about/">FR</a>
+          <span style="color:blue"> Language </span>
+              <div class="dropdown-content">
+                  
+                  
+                  <nav class="language-switcher" >
+                      
+                      
+                          <a class="active" aria-current="page" href="/fr/about/">FR</a>
+                      
+                      
+                  </nav>
+                  
+          <li><a title="EN" href="http://192.168.0.106:1313/en/about/">EN</a></li>
+              </div>
+            </ul>
+             
+        </nav>
+      
+  
+  </div>
+  
  <br>
 </footer></body>
 

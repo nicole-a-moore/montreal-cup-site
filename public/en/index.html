@@ -34,12 +34,24 @@
 </head>
 
 <body><header>
+    <div class="block lg:hidden text-center">  
+        
+         <a style="color:blue" href="/fr/">FR</a>
+         
+      </div>
+      
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
             
             <li class="p-2">
                 <a href="/about/" >
                     <span>About</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/register/" >
+                    <span>Resgister</span>
                 </a>
             </li>
             
@@ -64,14 +76,56 @@
         </ul>
     </div>
     <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-            <a href="http://localhost:1313/"><img alt="Montreal Cup Logo"
-                    class="h-17 mr-3" src="/img/logo/logo1.svg"></a>
-        </div>
         
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+        <div class="block lg:hidden">
+            <ul class="dropdown">
+                <a class="active" aria-current="page" href="/en/">
+                    <div class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                     </div>
+                </a>              
+            </br>  
+            
+                    <div class="dropdown-content">
+                        
+                        <a href="/en/about/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            About 
+                        </a>
+                        
+                        <a href="/en/register/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Register 
+                        </a>
+                        
+                        <a href="/en/course/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Course 
+                        </a>
+                        
+                        <a href="/en/sponsors/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Sponsors 
+                        </a>
+                        
+                        <a href="/en/contact-us/"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Contact 
+                        </a>
+                        
+                    </div>
+                  </ul>
         </div>
-        
+
+        <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
+            <a href="http://192.168.0.106:1313/">
+                <img src="/img/logo/logo1.svg" alt="logo">
+            </a>
+
+         </div>
+
         
         <p class = "date">
             <font size="+4"> Montréal Cup 2024 </font>
@@ -81,15 +135,7 @@
         </p>
         
 
-        <div class="block lg:hidden">
-            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
-                <span class="top"></span>
-                <span class="middle"></span>
-                <span class="bottom"></span>
-            </div>
-        </div>
-        
-        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu" >
             <div class="text-lg lg:flex-grow">
             </div>
             <div class="text-lg">
@@ -97,6 +143,11 @@
                 <a href="/en/about/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
                     About 
+                </a>
+                
+                <a href="/en/register/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Register 
                 </a>
                 
                 <a href="/en/course/"
@@ -115,40 +166,37 @@
                 </a>
                 
             </div>
-        </div>
-
-        
-<nav>
-  <ul>
-    
-    
-    <li>EN</span>
-      
-      
-    
-      
-      <ul class="dropdown">
-        <span style="color:blue"> EN/FR </span>
-            <div class="dropdown-content">
-                
-                
-                <nav class="language-switcher">
+            
+            
+            <nav>
+                <ul>
                     
-                    
+                    <ul class="dropdown">
                         <a class="active" aria-current="page" href="/en/">EN</a>
-                    
-                    
-                </nav>
-                
-        <li><a title="FR" href="http://localhost:1313/fr/">FR</a></li>
-            </div>
-          </ul>
+                        <span style="color:blue"> EN/FR </span>
+                            <div class="dropdown-content">
+                                
+                                
+                                <nav class="language-switcher" >
+                                    
+                                    
+                                        <a class="active" aria-current="page" href="/en/">EN</a>
+                                    
+                                    
+                                </nav>
+                                
+                        <li><a title="FR" href="http://192.168.0.106:1313/fr/">FR</a></li>
+                            </div>
+                          </ul>
+                           
+                    </li>
+    
+                </ul>
+              </nav>
+    
+        </div>
         
-    </li>
-  </ul>
-</nav>
-
-
+        
     </nav>
 </header><div class="scroll-top rounded-full">
         <a href="#">
@@ -259,7 +307,17 @@
     
 
 
- <footer class="copy pl-8 py-5 text-grey-900 text-md text-center">
+ <footer>
+  <div class="block lg:hidden copy pl-8 py-5 text-grey-900 text-md text-center"> 
+
+  </div>
+
+  <div class="block lg:hidden text-center">  
+    
+     <a style="color:blue" href="/fr/">FR</a>
+     
+  </div>
+
  <br>
 </footer><script src="/js/swiper-bundle.min.js"></script>
     <script>
