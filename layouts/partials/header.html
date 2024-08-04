@@ -3,7 +3,7 @@
         <ul class="text-center list-none text-white text-3xl">
             {{ range .Site.Menus.main }}
             <li class="p-2">
-                <a href="{{ .URL | safeURL }}">
+                <a href="{{ .URL | safeURL }}" >
                     <span>{{ .Name }}</span>
                 </a>
             </li>
@@ -19,12 +19,21 @@
         <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
         </div>
         
+        {{ if eq .Site.Language.Lang "en" }}
         <p class = "date">
-            <font size="+4"> Montreal Cup 2024 </font>
+            <font size="+4"> Montréal Cup 2024 </font>
             <br>
             <font size="+2"> September 6-7-8 </font>
             <br>
         </p>
+        {{ else }}
+        <p class = "date">
+            <font size="+4"> Montréal Cup 2024 </font>
+            <br>
+            <font size="+2"> Septembre 6-7-8 </font>
+            <br>
+        </p>
+        {{ end }}
 
         <div class="block lg:hidden">
             <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
@@ -39,12 +48,45 @@
             </div>
             <div class="text-lg">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | safeURL }}"
+                <a href="{{ .URL | relLangURL }}"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    {{ .Name }}
+                    {{ i18n .Identifier | default .Name}} 
                 </a>
                 {{ end }}
             </div>
         </div>
+
+        {{ if .Site.IsMultiLingual }}
+<nav>
+  <ul>
+    {{ range .Site.Languages }}
+    {{ if eq . $.Site.Language }}
+    <li>{{ .LanguageName }}</span>
+      {{ end }}
+      {{ end }}
+      <ul class="dropdown">
+        <span style="color:blue"> EN/FR </span>
+            <div class="dropdown-content">
+                {{ range $.Translations }}
+                {{ with .Translations }}
+                <nav class="language-switcher">
+                    {{ range . }}
+                    {{ if eq .Language.Lang $.Language.Lang }}
+                        <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                    {{ else }}
+                        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                    {{ end }}
+                    {{ end }}
+                </nav>
+                {{ end }}
+        <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            </div>
+          </ul>
+        {{ end }}
+    </li>
+  </ul>
+</nav>
+{{ end }}
+
     </nav>
 </header>

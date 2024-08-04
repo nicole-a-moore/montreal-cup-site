@@ -2,7 +2,8 @@ baseURL = "https://montrealcup.netlify.app/"
 title = "Montreal Cup"
 author = "nikkimoore"
 languageCode = "en"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
@@ -35,6 +36,15 @@ enableRobotsTXT = true
     meta_og_title = "Montreal Cup"
     meta_og_type = "website"
 
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'EN'
+
+  [languages.fr]
+    contentDir = 'content/fr'
+    languageName = 'FR'
+    
 [menu]
 
   [[menu.main]]
