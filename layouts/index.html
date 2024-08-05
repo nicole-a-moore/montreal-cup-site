@@ -22,7 +22,17 @@
             <span class="icon-keyboard_arrow_up text-2xl"></span>
         </a>
     </div>
-    {{- partial "slide.html" . -}}
+
+    <div class="mobileHide">
+        {{- partial "slide.html" . -}}
+    </div>
+
+    <div class="hide-on-desktop">
+    </br>
+        <img src="/img/slide/fbheader.jpg" alt="Fb header" width = "100%">
+        <!-- something here -->
+    </div>
+    
 
 
 
@@ -30,32 +40,58 @@
       <div>
      <center>
         <br>
-        <br>
-        <br>
         {{ if eq .Site.Language.Lang "en" }}
         <p class = "date">
-            <font size="+4"> Co-organizers </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+                <font size="+4"> Co-organizers </font>
+            </div>
+            <div class="hide-on-desktop">
+                <font size="+3"> Co-organizers </font>
+            </div>
         </p>
         {{ else }}
-        <font size="+4"> Coorganisateurs </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+              <font size="+4"> Coorganisateurs </font>
+             </div>
+            <div class="hide-on-desktop">
+              <font size="+3"> Coorganisateurs </font>
+          </div>
         </p>
         {{ end }}
         <br>
         <img src="/img/logo/co-orgs.png" alt="coorgs logos" width = "80%">
         <br>
-        <br>
+
     </center>
 </div>
 
      <!-- add sponsor logo image -->
     <center>
-        <br>
+
         {{ if eq .Site.Language.Lang "en" }}
         <p class = "date">
-            <font size="+4"> Sponsors </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+                <font size="+4"> Sponsors </font>
+            </div>
+            <div class="hide-on-desktop">
+                <font size="+3"> Sponsors </font>
+            </div>
         </p>
         {{ else }}
-        <font size="+4"> Commanditaires </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+                <font size="+4"> Commanditaires </font>
+             </div>
+            <div class="hide-on-desktop">
+                <font size="+3"> Commanditaires </font>
+             </div>
         </p>
         {{ end }}
         <br>

@@ -35,6 +35,8 @@
 
 <body><header>
 
+
+
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
             
@@ -113,21 +115,52 @@
                     </div>
                   </ul>
         </div>
+        
+        <div class="mobileHide">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
+                <a href="http://10.122.248.47:1313/">
+                    <img src="/img/logo/logo1.svg" alt="logo">
+                </a>
+    
+             </div>
+        </div>
 
-        <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
-            <a href="http://localhost:1313/">
-                <img src="/img/logo/logo1.svg" alt="logo">
-            </a>
 
-         </div>
+         <style type="text/css">
+            .mobileHide { display: inline;}
+             
+            @media only screen
+            and (min-device-width : 320px)
+            and (max-device-width : 480px){  .mobileHide { display: none;}}
+         </style>
+    
+    <style type="text/css">
+    @media screen and (min-width: 481px) {
+      .hide-on-desktop {
+        display: none;
+      }
+    }
+     </style>
 
         
-        <p class = "date">
-            <font size="+4"> Montréal Cup 2024 </font>
-            <br>
-            <font size="+2"> Septembre 6-7-8 </font>
-            <br>
-        </p>
+        <div class="mobileHide">
+            <p class = "date">
+                <font size="+4"> Montréal Cup 2024 </font>
+                <br>
+                <font size="+2"> Septembre 6-7-8 </font>
+                <br>
+            </p>     
+        </div>
+        <div class="hide-on-desktop">
+            <p class = "date">
+                <a href="http://10.122.248.47:1313/">
+                    <font size="+3"> Montréal Cup 2024 </font>
+                    <br>
+                    <font size="+1"> Septembre 6-7-8 </font>
+                    <br>
+            </a>
+            </p>     
+        </div>
         
 
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu" >
@@ -180,7 +213,7 @@
                                     
                                 </nav>
                                 
-                        <li><a title="EN" href="http://localhost:1313/en/">EN</a></li>
+                        <li><a title="EN" href="http://10.122.248.47:1313/en/">EN</a></li>
                             </div>
                           </ul>
                            
@@ -197,11 +230,13 @@
         <a href="#">
             <span class="icon-keyboard_arrow_up text-2xl"></span>
         </a>
-    </div><div class="swiper-container">
+    </div>
+
+    <div class="mobileHide"><div class="swiper-container">
     <div class="swiper-wrapper">
         
         <div class="swiper-slide">
-            <img src="/img/slide/logo.jpg" alt="">
+            <img src="/img/slide/fbheader.jpg" alt="">
             <div class="s-fade-txt">
                 <h1 class="text-4xl text-white"></h1>
             </div>
@@ -266,28 +301,51 @@
     </div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-</div>
+</div></div>
+
+    <div class="hide-on-desktop">
+    </br>
+        <img src="/img/slide/fbheader.jpg" alt="Fb header" width = "100%">
+        
+    </div>
+    
+
+
+
+     
       <div>
      <center>
         <br>
-        <br>
-        <br>
         
-        <font size="+4"> Coorganisateurs </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+              <font size="+4"> Coorganisateurs </font>
+             </div>
+            <div class="hide-on-desktop">
+              <font size="+3"> Coorganisateurs </font>
+          </div>
         </p>
         
         <br>
         <img src="/img/logo/co-orgs.png" alt="coorgs logos" width = "80%">
         <br>
-        <br>
+
     </center>
 </div>
 
      
     <center>
-        <br>
+
         
-        <font size="+4"> Commanditaires </font>
+            <div class="mobileHide">
+                <br>
+                <br>
+                <font size="+4"> Commanditaires </font>
+             </div>
+            <div class="hide-on-desktop">
+                <font size="+3"> Commanditaires </font>
+             </div>
         </p>
         
         <br>

@@ -24,22 +24,24 @@
 <meta property="og:site_name" content="Montreal Cup" />
 <meta property="og:title" content=" | Montreal Cup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/fr/sponsors/" />
+<meta property="og:url" content="http://10.122.248.47:1313/fr/sponsors/" />
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="">
 
 
-<meta property="og:image" content="http://localhost:1313/">
+<meta property="og:image" content="http://10.122.248.47:1313/">
 
-<meta name="description" content=" Coorganisateurs Commanditaires " />
-<meta property="og:description" content=" Coorganisateurs Commanditaires " />
-<meta property="twitter:description" content=" Coorganisateurs Commanditaires " />
+<meta name="description" content=" Coorganiseurs Coorganiseurs Commanditaires Commanditaires " />
+<meta property="og:description" content=" Coorganiseurs Coorganiseurs Commanditaires Commanditaires " />
+<meta property="twitter:description" content=" Coorganiseurs Coorganiseurs Commanditaires Commanditaires " />
 
 
 </head>
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
+
+
 
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
@@ -119,21 +121,52 @@
                     </div>
                   </ul>
         </div>
+        
+        <div class="mobileHide">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
+                <a href="http://10.122.248.47:1313/">
+                    <img src="/img/logo/logo1.svg" alt="logo">
+                </a>
+    
+             </div>
+        </div>
 
-        <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
-            <a href="http://localhost:1313/">
-                <img src="/img/logo/logo1.svg" alt="logo">
-            </a>
 
-         </div>
+         <style type="text/css">
+            .mobileHide { display: inline;}
+             
+            @media only screen
+            and (min-device-width : 320px)
+            and (max-device-width : 480px){  .mobileHide { display: none;}}
+         </style>
+    
+    <style type="text/css">
+    @media screen and (min-width: 481px) {
+      .hide-on-desktop {
+        display: none;
+      }
+    }
+     </style>
 
         
-        <p class = "date">
-            <font size="+4"> Montréal Cup 2024 </font>
-            <br>
-            <font size="+2"> Septembre 6-7-8 </font>
-            <br>
-        </p>
+        <div class="mobileHide">
+            <p class = "date">
+                <font size="+4"> Montréal Cup 2024 </font>
+                <br>
+                <font size="+2"> Septembre 6-7-8 </font>
+                <br>
+            </p>     
+        </div>
+        <div class="hide-on-desktop">
+            <p class = "date">
+                <a href="http://10.122.248.47:1313/">
+                    <font size="+3"> Montréal Cup 2024 </font>
+                    <br>
+                    <font size="+1"> Septembre 6-7-8 </font>
+                    <br>
+            </a>
+            </p>     
+        </div>
         
 
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu" >
@@ -186,7 +219,7 @@
                                     
                                 </nav>
                                 
-                        <li><a title="EN" href="http://localhost:1313/en/sponsors/">EN</a></li>
+                        <li><a title="EN" href="http://10.122.248.47:1313/en/sponsors/">EN</a></li>
                             </div>
                           </ul>
                            
@@ -207,17 +240,45 @@
 <div class="mx-auto my-10 max-w-6xl">
   <div class="mx-3 col-span-3 lg:col-span-2 px-2">
     <h1 class="title text-5xl mb-4"></h1>
-    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p style="text-align: center">
-<font size="+4"> Coorganisateurs </font>
-</p>
+    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><style type="text/css">
+        .mobileHide { display: inline;}
+        /* Smartphone Portrait and Landscape */
+        @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px){  .mobileHide { display: none;}}
+     </style>
+<style type="text/css">
+@media screen and (min-width: 481px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+ </style>
+<div class="mobileHide">
+    <p style="text-align: center">
+        <font size="+4"> Coorganiseurs </font>
+    </p>    
+</div>
+<div class="hide-on-desktop">
+    <p style="text-align: center">
+        <font size="+3"> Coorganiseurs </font>
+    </p>        
+</div>
 <p><img
     src="/img/logo/co-orgs.png" alt="Co-organizer logos"
     
      style="width: 100%" 
     /></p>
-<p style="text-align: center">
-<font size="+4"> Commanditaires </font>
-</p>
+<div class="mobileHide">
+    <p style="text-align: center">
+        <font size="+4"> Commanditaires </font>
+    </p>    
+</div>
+<div class="hide-on-desktop">
+    <p style="text-align: center">
+        <font size="+3"> Commanditaires </font>
+    </p>        
+</div>
 <p><img
     src="/img/logo/sponsor_logos.jpg" alt="Sponsor logos"
     
