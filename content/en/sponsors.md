@@ -19,13 +19,13 @@
  
 <div class="mobileHide">
     <p style="text-align: center">
-        <font size="+4"> Co-organizers </font>
+        <font size="+3"> Co-organizers </font>
     </p>    
 </div>
 
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+3"> Co-organizers </font>
+        <font size="+2"> Co-organizers </font>
     </p>        
 </div>
 
@@ -33,13 +33,13 @@
 
 <div class="mobileHide">
     <p style="text-align: center">
-        <font size="+4"> Sponsors </font>
+        <font size="+3"> Sponsors </font>
     </p>    
 </div>
 
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+3"> Sponsors </font>
+        <font size="+2"> Sponsors </font>
     </p>        
 </div>
 

@@ -19,13 +19,13 @@
  
 <div class="mobileHide">
     <p style="text-align: center">
-        <font size="+4"> Coorganiseurs </font>
+        <font size="+3"> Coorganiseurs </font>
     </p>    
 </div>
 
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+3"> Coorganiseurs </font>
+        <font size="+2"> Coorganiseurs </font>
     </p>        
 </div>
 
@@ -33,13 +33,13 @@
 
 <div class="mobileHide">
     <p style="text-align: center">
-        <font size="+4"> Commanditaires </font>
+        <font size="+3"> Commanditaires </font>
     </p>    
 </div>
 
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+3"> Commanditaires </font>
+        <font size="+2"> Commanditaires </font>
     </p>        
 </div>
 
