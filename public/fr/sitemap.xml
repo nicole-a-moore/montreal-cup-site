@@ -2,129 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://10.122.248.47:1313/fr/products/example/</loc>
+    <loc>http://192.168.0.106:1313/fr/products/example/</loc>
     <lastmod>2020-06-23T12:33:45+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/products/example/"
+                href="http://192.168.0.106:1313/en/products/example/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/products/example/"
+                href="http://192.168.0.106:1313/fr/products/example/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/</loc>
+    <loc>http://192.168.0.106:1313/fr/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/"
+                href="http://192.168.0.106:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/"
+                href="http://192.168.0.106:1313/fr/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/about/</loc>
+    <loc>http://192.168.0.106:1313/fr/about/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/about/"
+                href="http://192.168.0.106:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/about/"
+                href="http://192.168.0.106:1313/fr/about/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/course/</loc>
+    <loc>http://192.168.0.106:1313/fr/course/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/course/"
+                href="http://192.168.0.106:1313/en/course/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/course/"
+                href="http://192.168.0.106:1313/fr/course/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/products/</loc>
+    <loc>http://192.168.0.106:1313/fr/products/</loc>
     <lastmod>2020-06-23T12:33:45+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/products/"
+                href="http://192.168.0.106:1313/en/products/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/products/"
+                href="http://192.168.0.106:1313/fr/products/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/contact-us/</loc>
+    <loc>http://192.168.0.106:1313/fr/contact-us/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/contact-us/"
+                href="http://192.168.0.106:1313/en/contact-us/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/contact-us/"
+                href="http://192.168.0.106:1313/fr/contact-us/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/register/</loc>
+    <loc>http://192.168.0.106:1313/fr/register/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/register/"
+                href="http://192.168.0.106:1313/en/register/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/register/"
+                href="http://192.168.0.106:1313/fr/register/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/sponsors/</loc>
+    <loc>http://192.168.0.106:1313/fr/sponsors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/sponsors/"
+                href="http://192.168.0.106:1313/en/sponsors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/sponsors/"
+                href="http://192.168.0.106:1313/fr/sponsors/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/categories/</loc>
+    <loc>http://192.168.0.106:1313/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/categories/"
+                href="http://192.168.0.106:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/categories/"
+                href="http://192.168.0.106:1313/fr/categories/"
                 />
   </url><url>
-    <loc>http://10.122.248.47:1313/fr/tags/</loc>
+    <loc>http://192.168.0.106:1313/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://10.122.248.47:1313/en/tags/"
+                href="http://192.168.0.106:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://10.122.248.47:1313/fr/tags/"
+                href="http://192.168.0.106:1313/fr/tags/"
                 />
   </url>
 </urlset>

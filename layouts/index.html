@@ -28,11 +28,32 @@
     </div>
 
     <div class="hide-on-desktop">
-    </br>
-        <img src="/img/slide/fbheader.jpg" alt="Fb header" width = "100%">
-        <!-- something here -->
+    {{- partial "slide_mobile.html" . -}}
     </div>
     
+
+    <style type="text/css">
+        .swiper-container {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 20px auto;
+        }
+        .swiper-slide {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 20px auto;
+        }
+        @media (max-width:768px){
+        .swiper-container img{
+         width: 100%;
+         height: 400px;
+        object-fit: cover;
+        }
+
+}
+    </style>
 
 
 
@@ -48,7 +69,7 @@
                 <font size="+4"> Co-organizers </font>
             </div>
             <div class="hide-on-desktop">
-                <font size="+3"> Co-organizers </font>
+                <font size="+2"> Co-organizers </font>
             </div>
         </p>
         {{ else }}
@@ -58,7 +79,7 @@
               <font size="+4"> Coorganisateurs </font>
              </div>
             <div class="hide-on-desktop">
-              <font size="+3"> Coorganisateurs </font>
+              <font size="+2"> Coorganisateurs </font>
           </div>
         </p>
         {{ end }}
@@ -80,7 +101,7 @@
                 <font size="+4"> Sponsors </font>
             </div>
             <div class="hide-on-desktop">
-                <font size="+3"> Sponsors </font>
+                <font size="+2"> Sponsors </font>
             </div>
         </p>
         {{ else }}
@@ -90,7 +111,7 @@
                 <font size="+4"> Commanditaires </font>
              </div>
             <div class="hide-on-desktop">
-                <font size="+3"> Commanditaires </font>
+                <font size="+2"> Commanditaires </font>
              </div>
         </p>
         {{ end }}

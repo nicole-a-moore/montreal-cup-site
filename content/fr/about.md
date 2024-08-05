@@ -15,3 +15,4 @@ Non seulement le Montréal Cup promeut la pratique de deux sports extrêmes ré�
 Pour plus d'informations, visitez notre page Instagram: [@montreal.cup](https://www.instagram.com/montreal.cup/?hl=en).
 
 ![Caption for the image](/img/slide/volunteerteam.jpg)
+<a> Photo par Caroline Souty @caro_skategraphy </a>

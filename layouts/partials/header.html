@@ -1,77 +1,77 @@
 <header>
-
-<!--    <div class="hide-on-desktop">
-    </br>
-        <a href="{{ .Site.BaseURL }}">
-            <img src="/img/slide/fbheader.jpg" alt="Fb header" width = "100%">
-        </a>
-    </div>
-    -->
-
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
             {{ range .Site.Menus.main }}
             <li class="p-2">
-                <a href="{{ .URL | safeURL }}" >
+                <a href="{{ .URL | safeURL }}">
                     <span>{{ .Name }}</span>
                 </a>
             </li>
             {{ end }}
         </ul>
     </div>
+    
     <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        
-        <div class="block lg:hidden">
+
+                <div class="block lg:hidden">
             <ul class="dropdown">
                 <a class="active" aria-current="page" href="{{ .RelPermalink }}">
-                    <div class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
-                        <span class="top"></span>
-                        <span class="middle"></span>
-                        <span class="bottom"></span>
-                     </div>
-                </a>              
-            </br>  
-            
-                    <div class="dropdown-content">
-                        {{ range .Site.Menus.main }}
-                        <a href="{{ .URL | relLangURL }}"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            {{ i18n .Identifier | default .Name}} 
-                        </a>
-                        {{ end }}
+                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <img src="/img/logo/logo1.svg" alt="logo">
+                        </div>
                     </div>
-                  </ul>
+                </a>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div class="dropdown-content">
+                    {{ range .Site.Menus.main }}
+                    <a href="{{ .URL | relLangURL }}"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        {{ i18n .Identifier | default .Name}}
+                    </a>
+                    {{ end }}
+                </div>
+            </ul>
         </div>
-        
+
         <div class="mobileHide">
-            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
                 <a href="{{ .Site.BaseURL }}">
                     <img src="/img/logo/logo1.svg" alt="logo">
                 </a>
-    
-             </div>
+
+            </div>
         </div>
 
 
-         <style type="text/css">
-            .mobileHide { display: inline;}
+        <style type="text/css">
+            .mobileHide {
+                display: inline;
+            }
+
             /* Smartphone Portrait and Landscape */
-            @media only screen
-            and (min-device-width : 320px)
-            and (max-device-width : 480px){  .mobileHide { display: none;}}
-         </style>
-    
-    <style type="text/css">
-    @media screen and (min-width: 481px) {
-      .hide-on-desktop {
-        display: none;
-      }
-    }
-     </style>
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                .mobileHide {
+                    display: none;
+                }
+            }
+        </style>
+
+        <style type="text/css">
+            @media screen and (min-width: 481px) {
+                .hide-on-desktop {
+                    display: none;
+                }
+            }
+        </style>
 
         {{ if eq .Site.Language.Lang "en" }}
         <div class="mobileHide">
-            <p class = "date" >
+            <p class="date">
                 <font size="+4"> Montréal Cup 2024 </font>
                 <br>
                 <font size="+2"> September 6-7-8 </font>
@@ -79,9 +79,9 @@
             </p>
         </div>
         <div class="hide-on-desktop">
-            <p class = "date">
+            <p class="date">
                 <a href="{{ .Site.BaseURL }}">
-                    <font size="+3"> Montréal Cup 2024 </font>
+                    <font size="+2"> Montréal Cup 2024 </font>
                     <br>
                     <font size="+1"> September 6-7-8 </font>
                     <br>
@@ -90,70 +90,73 @@
         </div>
         {{ else }}
         <div class="mobileHide">
-            <p class = "date">
+            <p class="date">
                 <font size="+4"> Montréal Cup 2024 </font>
                 <br>
                 <font size="+2"> Septembre 6-7-8 </font>
                 <br>
-            </p>     
+            </p>
         </div>
         <div class="hide-on-desktop">
-            <p class = "date">
+            <p class="date">
                 <a href="{{ .Site.BaseURL }}">
-                    <font size="+3"> Montréal Cup 2024 </font>
+                    <font size="+2"> Montréal Cup 2024 </font>
                     <br>
                     <font size="+1"> Septembre 6-7-8 </font>
                     <br>
-            </a>
-            </p>     
+                </a>
+            </p>
         </div>
         {{ end }}
 
-        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu" >
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
             <div class="text-lg lg:flex-grow">
             </div>
             <div class="text-lg">
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | relLangURL }}"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    {{ i18n .Identifier | default .Name}} 
+                    {{ i18n .Identifier | default .Name}}
                 </a>
                 {{ end }}
             </div>
-            
+
             {{ if .Site.IsMultiLingual }}
             <nav>
                 <ul>
                     {{ if eq . $.Site.Language }}
                     <li>{{ .LanguageName }}</span>
-                    {{ end }}
-                    <ul class="dropdown">
-                        <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-                        <span style="color:blue"> EN/FR </span>
+                        {{ end }}
+                        <ul class="dropdown">
+                            <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{ .Language.LanguageName
+                                }}</a>
+                            <span style="color:blue"> EN/FR </span>
                             <div class="dropdown-content">
                                 {{ range $.Translations }}
                                 {{ with .Translations }}
-                                <nav class="language-switcher" >
+                                <nav class="language-switcher">
                                     {{ range . }}
                                     {{ if eq .Language.Lang $.Language.Lang }}
-                                        <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                                    <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{
+                                        .Language.LanguageName }}</a>
                                     {{ else }}
-                                        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                                    <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
                                     {{ end }}
                                     {{ end }}
                                 </nav>
                                 {{ end }}
-                        <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                                <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{
+                                        .Language.LanguageName }}</a></li>
                             </div>
-                          </ul>
-                          {{ end }} 
+                        </ul>
+                        {{ end }}
                     </li>
-    
+
                 </ul>
-              </nav>
-    {{ end }}
+            </nav>
+            {{ end }}
         </div>
-        
+
         <!-- <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen" >
             <span class="top"></span>
             <span class="middle"></span>
