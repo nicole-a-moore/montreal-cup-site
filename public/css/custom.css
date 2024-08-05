@@ -35,3 +35,42 @@ table {
   margin: auto;
   z-index: 1;
 }
+
+.container_coorg{
+	display: grid;
+	width: 1fr;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em;
+	padding-top: 20px;
+}
+.container_sponsors3{
+	display: grid;
+	width: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	padding-top: 20px;
+}
+.container_sponsors4{
+	display: grid;
+	width: 1fr;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1em;
+	padding-top: 20px;
+}
+
+.button{
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+	color: white;
+	font-size: 2em;
+	border-radius: 5px;
+	transition: .2s;
+	&:hover {
+		box-shadow: 10px 10px 10px grey;
+		transform: scale(1.05);
+		background-color: white;
+		color: black;
+	}
+}
