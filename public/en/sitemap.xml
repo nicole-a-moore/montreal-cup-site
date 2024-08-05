@@ -2,129 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.0.106:1313/en/products/example/</loc>
+    <loc>http://localhost:1313/en/products/example/</loc>
     <lastmod>2020-06-23T12:33:45+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/products/example/"
+                href="http://localhost:1313/fr/products/example/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/products/example/"
+                href="http://localhost:1313/en/products/example/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/"
+                href="http://localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/about/</loc>
+    <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/about/"
+                href="http://localhost:1313/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/about/"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/course/</loc>
+    <loc>http://localhost:1313/en/course/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/course/"
+                href="http://localhost:1313/fr/course/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/course/"
+                href="http://localhost:1313/en/course/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/products/</loc>
+    <loc>http://localhost:1313/en/products/</loc>
     <lastmod>2020-06-23T12:33:45+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/products/"
+                href="http://localhost:1313/fr/products/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/products/"
+                href="http://localhost:1313/en/products/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/contact-us/</loc>
+    <loc>http://localhost:1313/en/contact-us/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/contact-us/"
+                href="http://localhost:1313/fr/contact-us/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/contact-us/"
+                href="http://localhost:1313/en/contact-us/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/register/</loc>
+    <loc>http://localhost:1313/en/register/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/register/"
+                href="http://localhost:1313/fr/register/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/register/"
+                href="http://localhost:1313/en/register/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/sponsors/</loc>
+    <loc>http://localhost:1313/en/sponsors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/sponsors/"
+                href="http://localhost:1313/fr/sponsors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/sponsors/"
+                href="http://localhost:1313/en/sponsors/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/categories/"
+                href="http://localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>http://192.168.0.106:1313/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://192.168.0.106:1313/fr/tags/"
+                href="http://localhost:1313/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://192.168.0.106:1313/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url>
 </urlset>
