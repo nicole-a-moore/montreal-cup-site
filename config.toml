@@ -8,6 +8,14 @@ enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
 
+googleAnalytics = "UA-12345678-1"
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
 [params]
 
   mainSections = ['blog']
