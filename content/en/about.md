@@ -14,5 +14,5 @@ Not only does the Montreal Cup promote the practice of two re-emerging extreme s
 
 For more information, visit our Instagram page: [@montreal.cup](https://www.instagram.com/montreal.cup/?hl=en).
 
-![Caption for the image](/img/slide/volunteerteam.jpg)
+![Caption for the image](/img/slide/8_202309-carolinesouty-mtlcupwatermark.jpg)
 Photo by Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skategraphy/?hl=en)

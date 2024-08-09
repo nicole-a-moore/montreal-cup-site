@@ -11,7 +11,4 @@ author = "Nikki Moore"
 | :---:        |    :----:   |
 | ![Course layout - view 3](/img/course/course3.jpg "100%") | ![Course layout - view 2](/img/course/course2.jpg "100%") |  |
 
-
-
-
-
+Design and construction of the course by Maxime Kind, Yann Passerieu, Phil Secco, Jayson Roy and Spinworks.
