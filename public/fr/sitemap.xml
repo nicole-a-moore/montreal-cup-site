@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/products/example/</loc>
-    <lastmod>2020-06-23T12:33:45+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/products/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/products/example/"
-                />
-  </url><url>
     <loc>http://localhost:1313/fr/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,19 +39,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/course/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/products/</loc>
-    <lastmod>2020-06-23T12:33:45+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/products/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/products/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/contact-us/</loc>

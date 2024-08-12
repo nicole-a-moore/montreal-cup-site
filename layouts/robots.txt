@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-{{ range where .Data.Pages "Params.robotsdisallow" true }}
-Allow: /
-{{ end }}
+Sitemap: https://www.montrealcup.ca/sitemap.xml
