@@ -4,6 +4,13 @@
 <head>
   {{- partial "head.html" . -}}
   {{ block "meta_tags" . }}{{end}}
+  {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+    {{ $public := not .Params.private }}
+    {{ if and $production $public }}
+      <meta name="robots" content="index, follow">
+    {{ else }}
+      <meta name="robots" content="index, follow">
+    {{ end }}
 </head>
 
 <body class="flex flex-col min-h-screen">
