@@ -2,103 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/</loc>
+    <loc>https://montrealcup.ca/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://montrealcup.ca/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://montrealcup.ca/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/about/</loc>
+    <loc>https://montrealcup.ca/about/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://montrealcup.ca/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="https://montrealcup.ca/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/course/</loc>
+    <loc>https://montrealcup.ca/course/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/course/"
+                href="https://montrealcup.ca/en/course/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/course/"
+                href="https://montrealcup.ca/course/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/contact-us/</loc>
+    <loc>https://montrealcup.ca/contact-us/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact-us/"
+                href="https://montrealcup.ca/en/contact-us/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/contact-us/"
+                href="https://montrealcup.ca/contact-us/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/register/</loc>
+    <loc>https://montrealcup.ca/register/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/register/"
+                href="https://montrealcup.ca/en/register/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/register/"
+                href="https://montrealcup.ca/register/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/sponsors/</loc>
+    <loc>https://montrealcup.ca/sponsors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/sponsors/"
+                href="https://montrealcup.ca/en/sponsors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/sponsors/"
+                href="https://montrealcup.ca/sponsors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/categories/</loc>
+    <loc>https://montrealcup.ca/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://montrealcup.ca/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://montrealcup.ca/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
+    <loc>https://montrealcup.ca/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://montrealcup.ca/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://montrealcup.ca/tags/"
                 />
   </url>
 </urlset>

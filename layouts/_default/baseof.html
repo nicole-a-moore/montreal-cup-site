@@ -11,6 +11,8 @@
     {{ else }}
       <meta name="robots" content="index, follow">
     {{ end }}
+
+    {{ with .Params.robotsdisallow }}<meta name="robots" content="noindex, nofollow, noarchive">{{ else }}<meta name="robots" content="index, follow, archive">{{ end }}
 </head>
 
 <body class="flex flex-col min-h-screen">

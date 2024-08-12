@@ -3,7 +3,7 @@ title = "Montreal Cup"
 author = "nikkimoore"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
@@ -48,11 +48,13 @@ googleAnalytics = "UA-12345678-1"
   [languages.en]
     contentDir = 'content/en'
     languageName = 'EN'
+    robots = "index,follow"
 
   [languages.fr]
     contentDir = 'content/fr'
     languageName = 'FR'
-    
+    robots = "index,follow"
+
 [menu]
 
   [[menu.main]]

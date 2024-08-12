@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12345678-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12345678-1');
+</script>
+
+
 <meta charset="utf-8">
-<title>Cont | Tags</title>
+<title>Montreal Cup | Tags</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="apple-touch-icon" sizes="180x180" href='/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='/favicon-32x32.png'>
@@ -14,30 +26,38 @@
 
 
 
-<link rel="stylesheet" href="/css/style.css">
+
+<link rel="stylesheet" href="/css/style.min.815b9704d7cb114911390d1382d18d09845f848f43aee123ec61fb7f54bc51a8.css" />
 
 
 <link href='/css/style.min.css' rel="stylesheet" type="text/css">
 <link rel="stylesheet" href='/css/custom.css'>
 
 
-<meta property="og:site_name" content="Cont" />
-<meta property="og:title" content="Tags | Cont" />
+<meta property="og:site_name" content="Montreal Cup" />
+<meta property="og:title" content="Tags | Montreal Cup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/tags/" />
+<meta property="og:url" content="https://montrealcup.ca/tags/" />
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="Tags">
+<meta name="robots" content="index, follow">
 
 
-<meta property="og:image" content="http://localhost:1313/">
+<meta property="og:image" content="https://montrealcup.ca/">
 
 
 
+  
+    
+    
+      <meta name="robots" content="index, follow">
+    
+
+    <meta name="robots" content="index, follow, archive">
 </head>
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
-
     <div id="overlay">
         <ul class="text-center list-none text-white text-3xl">
             
@@ -48,8 +68,8 @@
             </li>
             
             <li class="p-2">
-                <a href="https://www.instagram.com/montreal.cup/?hl=en">
-                    <span>Instagram</span>
+                <a href="/register/">
+                    <span>Resgister</span>
                 </a>
             </li>
             
@@ -73,30 +93,107 @@
             
         </ul>
     </div>
+    
     <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-            <a href="http://localhost:1313/"><img alt="Montreal Cup Logo"
-                    class="h-17 mr-3" src="/img/logo/logo1.svg"></a>
-        </div>
-        
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-        </div>
-        
-        <p class = "date">
-            <font size="+4"> Montreal Cup 2024 </font>
-            <br>
-            <font size="+2"> September 6-7-8 </font>
-            <br>
-        </p>
 
-        <div class="block lg:hidden">
-            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
-                <span class="top"></span>
-                <span class="middle"></span>
-                <span class="bottom"></span>
+                <div class="block lg:hidden">
+            <ul class="dropdown">
+                <a class="active" aria-current="page" href="/tags/">
+                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <img src="/img/logo/logo1.svg" alt="logo">
+                        </div>
+                    </div>
+                </a>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div class="dropdown-content">
+                    
+                    <a href="/about/"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        À propos de
+                    </a>
+                    
+                    <a href="/register/"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Inscriptions
+                    </a>
+                    
+                    <a href="/course/"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Parcours
+                    </a>
+                    
+                    <a href="/sponsors/"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Commanditaires
+                    </a>
+                    
+                    <a href="/contact-us/"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Contact
+                    </a>
+                    
+                </div>
+            </ul>
+        </div>
+
+        <div class="mobileHide">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+                <a href="https://montrealcup.ca/">
+                    <img src="/img/logo/logo1.svg" alt="logo">
+                </a>
+
             </div>
         </div>
+
+
+        <style type="text/css">
+            .mobileHide {
+                display: inline;
+            }
+
+             
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                .mobileHide {
+                    display: none;
+                }
+            }
+        </style>
+
+        <style type="text/css">
+            @media screen and (min-width: 481px) {
+                .hide-on-desktop {
+                    display: none;
+                }
+            }
+        </style>
+
         
+        <div class="mobileHide">
+            <p class="date">
+                <font size="+4"> Montréal Cup </font>
+                <br>
+                <font size="+2"> 6-8 septembre, 2024 </font>
+                <br>
+            </p>
+        </div>
+        <div class="hide-on-desktop">
+            <p class="date">
+                <a href="https://montrealcup.ca/">
+                    <br>
+                    <font size="+3"> Montréal Cup </font>
+                    <br>
+                    <font size="+2"> 6-8 septembre, 2024 </font>
+                    <br>
+                </a>
+            </p>
+        </div>
+        
+
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
             <div class="text-lg lg:flex-grow">
             </div>
@@ -104,22 +201,22 @@
                 
                 <a href="/about/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    About
+                    À propos de
                 </a>
                 
-                <a href="https://www.instagram.com/montreal.cup/?hl=en"
+                <a href="/register/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Instagram
+                    Inscriptions
                 </a>
                 
                 <a href="/course/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Course
+                    Parcours
                 </a>
                 
                 <a href="/sponsors/"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Sponsors
+                    Commanditaires
                 </a>
                 
                 <a href="/contact-us/"
@@ -128,31 +225,37 @@
                 </a>
                 
             </div>
+
+            
+            <nav>
+                <ul>
+                    
+                        <ul class="dropdown">
+                            <a class="active" aria-current="page" href="/tags/">FR</a>
+                            <span style="color:blue"> EN/FR </span>
+                            <div class="dropdown-content">
+                                
+                                
+                                <nav class="language-switcher">
+                                    
+                                    
+                                    <a class="active" aria-current="page" href="/tags/">FR</a>
+                                    
+                                    
+                                </nav>
+                                
+                                <li><a title="EN" href="https://montrealcup.ca/en/tags/">EN</a></li>
+                            </div>
+                        </ul>
+                        
+                    </li>
+
+                </ul>
+            </nav>
+            
         </div>
 
         
-<nav>
-  <ul>
-    
-    
-    <li>En</span>
-      
-      
-    
-      
-      <ul class="dropdown">
-        <span style="color:blue"> EN/FR </span>
-            <div class="dropdown-content">
-                
-        <li><a title="Fr" href="http://localhost:1313/fr/tags/">Fr</a></li>
-            </div>
-          </ul>
-        
-    </li>
-  </ul>
-</nav>
-
-
     </nav>
 </header><div class="scroll-top rounded-full">
       <a href="#">
@@ -173,7 +276,13 @@
   </main>
 
 
- <footer class="copy pl-8 py-5 text-grey-900 text-md text-center">
+ <footer>
+  <div class="block lg:hidden text-center">  
+    
+     <a style="color:blue" href="/en/tags/">EN</a>
+     
+  </div>
+
  <br>
 </footer></body>
 
