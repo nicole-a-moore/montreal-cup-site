@@ -1,4 +1,5 @@
 +++
+title: "Inscriptions"
 +++
 
 <div style="background-color: #f8f8f8;"

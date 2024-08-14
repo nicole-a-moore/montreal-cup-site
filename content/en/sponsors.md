@@ -1,4 +1,5 @@
 +++
+title = "Sponsors"
 +++
 
 <div class="mobileHide">
