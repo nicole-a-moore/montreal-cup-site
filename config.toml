@@ -1,5 +1,5 @@
 baseURL = "https://montrealcup.ca/"
-title = "Montréal Cup 2024"
+title = "Montréal Cup"
 author = "nikkimoore"
 languageCode = "fr"
 defaultContentLanguage = "fr"
@@ -35,15 +35,15 @@ googleAnalytics = "UA-12345678-1"
     size = "h-17"
 
   [params.site]
-    name = "Montreal Cup"
+    name = "Montréal Cup"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A website for the Montreal Cup"
-    meta_og_title = "Montreal Cup"
+    meta_description = "Official site"
+    meta_og_title = "Montréal Cup"
     meta_og_type = "website"
 
 [languages]

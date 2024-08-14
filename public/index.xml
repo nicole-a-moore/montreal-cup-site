@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Montreal Cup 2024 on Montréal Cup 2024</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Montreal Cup 2024 on Montréal Cup 2024</description>
+    <title>Montréal Cup</title>
+    <link>https://montrealcup.ca/</link>
+    <description>Recent content on Montréal Cup</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://montrealcup.ca/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>À propos de</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://montrealcup.ca/about/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://montrealcup.ca/about/</guid>
       <description>La Montréal Cup est une compétition de patin à roues alignées et quad, unique en son genre, qui se déroule sur la rue Ontario, dans Hochelaga. Depuis 2022, cet événement unique de trois jours est organisé de A à Z par une équipe de patineur.euses passionné.es et de boutiques de patins locales.&#xA;Pendant l’événement, une partie de la rue Ontario est transformée en un skatepark que les patineur.euses inline ou quad du monde entier sont invités à parcourir.</description>
     </item>
     <item>
       <title>Parcours</title>
-      <link>http://localhost:1313/course/</link>
+      <link>https://montrealcup.ca/course/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/course/</guid>
+      <guid>https://montrealcup.ca/course/</guid>
       <description>Conception et construction du parcours par Maxime Kind, Yann Passerieu, Phil Secco, Jayson Roy et Spinworks.</description>
     </item>
     <item>
       <title>Programme</title>
-      <link>http://localhost:1313/schedule/</link>
+      <link>https://montrealcup.ca/schedule/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/schedule/</guid>
+      <guid>https://montrealcup.ca/schedule/</guid>
       <description> vendredi 6 septembre 6:00pm Enregistrement 9:00pm Promenade samedi 7 septembre 9h30 Atelier quad avec Kid Ace 10h30 Atelier inline avec l&amp;rsquo;équipe Solo 11h30 Début des warm up des participants du samedi 13h00 Junior inline 13h30 Quad intermédiaire 15h00 Open inline 16h30 Finale junior inline 15h00 Finale quad intermédiaire 18h00 Final open inline 19h00 Podium du jour 20h00 Party dimanche 8 septembre 9h30 Atelier quad avec Kid Ace 10h30 Atelier inline avec l&amp;rsquo;équipe Solo 11h30 Début des warm up des participants du Dimanche 13h00 Bladies 14h00 Quad open 15h00 Pro inline 16h00 Finale bladies 16h30 Finale quad open 17h30 Finale pro inline 18h30 Podium du jour </description>
     </item>
     <item>
       <title>Commanditaires</title>
-      <link>http://localhost:1313/sponsors/</link>
+      <link>https://montrealcup.ca/sponsors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sponsors/</guid>
+      <guid>https://montrealcup.ca/sponsors/</guid>
       <description> Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires </description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact-us/</link>
+      <link>https://montrealcup.ca/contact-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact-us/</guid>
+      <guid>https://montrealcup.ca/contact-us/</guid>
       <description> Suivez-nous sur Instagram Envoyez-nous un courriel </description>
     </item>
     <item>
       <title>Inscriptions</title>
-      <link>http://localhost:1313/register/</link>
+      <link>https://montrealcup.ca/register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/register/</guid>
+      <guid>https://montrealcup.ca/register/</guid>
       <description> À venir! Suivez-nous sur Instagram pour les dernières nouvelles concernant l&#39;inscription </description>
     </item>
   </channel>
