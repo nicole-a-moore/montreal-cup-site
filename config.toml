@@ -67,25 +67,31 @@ googleAnalytics = "UA-12345678-1"
     identifier = "sponsors"
     name = "Sponsors"
     url = "/sponsors/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     identifier = "course"
     name = "Course"
     url = "/course/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = "contact-us"
     name = "Contact"
     url = "/contact-us/"
-    weight = 5
+    weight = 6
 
   [[menu.main]]
     identifier = "register"
-    name = "Resgister"
-    url = "/register/"
+    name = "Register"
+    url = "https://solo-inline.com/en/products/inscription-inline-montreal-cup?variant=45511118258388"
     weight = 2
+
+  [[menu.main]]
+    identifier = "schedule"
+    name = "Schedule"
+    url = "/schedule/"
+    weight = 3
     
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

@@ -15,3 +15,6 @@
 
 [register]
   other = "Inscriptions"
+
+[schedule]
+  other = "Programme"

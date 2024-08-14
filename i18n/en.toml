@@ -15,3 +15,6 @@
 
 [register]
   other = "Register"
+
+[schedule]
+  other = "Schedule"
