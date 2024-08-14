@@ -1,5 +1,5 @@
 +++
-title: "Commanditaires"
+title= "Commanditaires"
 +++
 
 <div class="mobileHide">

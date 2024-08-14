@@ -24,6 +24,8 @@ googleAnalytics = "UA-12345678-1"
 
   showBlog = false
 
+  Description = "Official website of the Montréal Cup. September 6-8 2024. Register now!"
+
   [params.logo]
     main = "img/logo/logo1.svg"
     alt = "Montreal Cup Logo"
