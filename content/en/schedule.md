@@ -9,13 +9,20 @@ author = "Nikki Moore"
 
 <center> <font size=+3>  Schedule </font> </center>
 
+</br>
+
+<b> Friday, September 6th </b> 
+
+| |||||||
+| :---:        |    :----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |
+| 6:00pm|||||Registration||||
+| 9:00pm|||||Night ride||||
+
+</br> 
+
+<b> Saturday, September 7th </b> 
 | ||
 | :---:        |    :----:   |
-| <b> Friday, September 6th </b> ||
-| 6:00pm|Registration|
-| 9:00pm|Night ride|
-| ||
-| <b> Saturday, September 7th ||
 | 9:30am|Quad workshop with Kid Ace|
 | 10:30am|Inline workshop with Team Solo|
 | 11:30am|Start of warm-ups for Saturday participants|
@@ -27,8 +34,12 @@ author = "Nikki Moore"
 | 6:00pm|Open inline final|
 | 7:00pm|Podium|
 | 8:00pm|Party|
+
+</br> 
+
+<b> Sunday, September 8th </b> 
 | ||
-| <b> Sunday, September 8th ||
+| :---:        |    :----:   |
 | 9:30am|Quad workshop with Kid Ace|
 | 10:30am|Inline workshop with Team Solo|
 | 11:30am|Start of warm-ups for Sunday participants|

@@ -9,13 +9,21 @@ author = "Nikki Moore"
 
 <center> <font size=+3>  Programme </font> </center>
 
+</br>
+
+<b> vendredi 6 septembre </b> 
+
+| |||||||
+| :---:        |    :----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |
+| 6:00pm|||||Enregistrement||||
+| 9:00pm|||||Promenade||||
+
+</br> 
+
+<b> samedi 7 septembre  </b> 
+
 | ||
 | :---:        |    :----:   |
-| <b> vendredi 6 septembre </b> ||
-| 18h00|Enregistrement|
-| 21h00|Promenade|
-| ||
-| <b> samedi 7 septembre ||
 | 9h30|Atelier quad avec Kid Ace|
 | 10h30|Atelier inline avec l'équipe Solo|
 | 11h30|Début des warm up des participants du samedi|
@@ -27,8 +35,12 @@ author = "Nikki Moore"
 | 18h00|Final open inline|
 | 19h00|Podium du jour|
 | 20h00|Party|
+
+</br> 
+
+<b> dimanche 8 septembre </b> 
 | ||
-| <b> dimanche 8 septembre ||
+| :---:        |    :----:   |
 | 9h30|Atelier quad avec Kid Ace|
 | 10h30|Atelier inline avec l'équipe Solo|
 | 11h30|Début des warm up des participants du Dimanche|
