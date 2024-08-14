@@ -1,13 +1,10 @@
  
 +++
 title = "Schedule"
-description = "Schedule"
 date = "2024-07-31"
 aliases = ["schedule"]
 author = "Nikki Moore"
 +++
-
-<center> <font size=+3>  Schedule </font> </center>
 
 </br>
 

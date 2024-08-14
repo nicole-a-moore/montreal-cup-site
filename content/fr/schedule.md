@@ -7,8 +7,6 @@ aliases = ["schedule"]
 author = "Nikki Moore"
 +++
 
-<center> <font size=+3>  Programme </font> </center>
-
 </br>
 
 <b> vendredi 6 septembre </b> 
