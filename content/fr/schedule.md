@@ -13,8 +13,8 @@ author = "Nikki Moore"
 
 | |||||||
 | :---:        |    :----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |:----:   |
-| 6:00pm|||||Enregistrement||||
-| 9:00pm|||||Promenade||||
+| 18h00|||||Enregistrement||||
+| 21h00|||||Promenade||||
 
 </br> 
 
@@ -29,8 +29,8 @@ author = "Nikki Moore"
 | 13h30|Quad intermédiaire|
 | 15h00|Open inline|
 | 16h30|Finale junior inline|
-| 15h00|Finale quad intermédiaire|
-| 18h00|Final open inline|
+| 17h00|Finale quad intermédiaire|
+| 18h00|Finale open inline|
 | 19h00|Podium du jour|
 | 20h00|Party|
 
