@@ -1,4 +1,4 @@
-baseURL = "https://nicole-a-moore.github.io/montreal-cup-site/"
+baseURL = "https://montrealcup.ca/"
 title = "Montreal Cup"
 author = "nikkimoore"
 languageCode = "fr"
@@ -50,31 +50,31 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "about"
     weight = 1
 
   [[menu.main]]
     identifier = "sponsors"
     name = "Sponsors"
-    url = "/sponsors/"
+    url = "sponsors"
     weight = 4
 
   [[menu.main]]
     identifier = "course"
     name = "Course"
-    url = "/course/"
+    url = "course"
     weight = 3
 
   [[menu.main]]
     identifier = "contact-us"
     name = "Contact"
-    url = "/contact-us/"
+    url = "contact-us"
     weight = 5
 
   [[menu.main]]
     identifier = "register"
     name = "Resgister"
-    url = "/register/"
+    url = "register"
     weight = 2
     
 [markup.goldmark.renderer]

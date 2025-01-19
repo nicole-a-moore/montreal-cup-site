@@ -14,8 +14,8 @@
 </div>
 
 <div class="container_coorg">
-	<div class="button"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
-    <div class="button"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
+	<div class="button"> <a href="https://solo-inline.com/"><img src="../content/static/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
+    <div class="button"> <a href="https://hochelaga.ca/"><img src="img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
 
 <div class="mobileHide">
@@ -31,7 +31,7 @@
 </div>
 
 <div class="container_sponsors3">
-	<div class="button"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
+	<div class="button"> <a href="https://aciervulcan.com/"><img src="/montreal-cup-site/static/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
     <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
     <div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
 </div>
@@ -71,7 +71,7 @@
     </p>        
 </div>
 
-![Parners logos](/img/sponsorlogos/sponsoringpartners_grid.png "100%")
+![Parners logos](img/sponsorlogos/sponsoringpartners_grid.png "100%")
 
 <div class="mobileHide">
     <p style="text-align: center">
@@ -85,6 +85,6 @@
     </p>        
 </div>
 
-![Parners logos](/img/sponsorlogos/partners_logos.png "100%")
+![Parners logos](../../static/img/sponsorlogos/partners_logos.png "100%")
 
 
