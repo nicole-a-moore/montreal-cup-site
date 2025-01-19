@@ -14,7 +14,7 @@
 </div>
 
 <div class="container_coorg">
-	<div class="button"> <a href="https://solo-inline.com/"><img src="../content/static/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
+	<div class="button"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
     <div class="button"> <a href="https://hochelaga.ca/"><img src="img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
 
@@ -71,7 +71,7 @@
     </p>        
 </div>
 
-![Parners logos](img/sponsorlogos/sponsoringpartners_grid.png "100%")
+![Parners logos](/img/sponsorlogos/sponsoringpartners_grid.png "100%")
 
 <div class="mobileHide">
     <p style="text-align: center">
@@ -85,6 +85,6 @@
     </p>        
 </div>
 
-![Parners logos](../../static/img/sponsorlogos/partners_logos.png "100%")
+![Parners logos](/img/sponsorlogos/partners_logos.png "100%")
 
 
