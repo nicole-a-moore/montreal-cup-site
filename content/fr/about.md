@@ -48,8 +48,8 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 </div>
 
 <div class="container_coorg">
-	<div class="button"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
-    <div class="button"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
+	<div class="mybutton"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
+    <div class="mybutton"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
 
 <!--
@@ -67,16 +67,16 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 -->
 
 <div class="container_sponsors3">
-	<div class="button"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
-    <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
-    <div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
+	<div class="mybutton"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
+    <div class="mybutton"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
+    <div class="mybutton"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
 </div>
 
 <div class="container_sponsors4">
-	<div class="button"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
-	<div class="button"> <a href="https://www.lowlifemtl.com/"><img src="/img/sponsorlogos/Lowlife_resized.png"> </a>  </div>
-    <div class="button"> <a href="https://www.nitroskatesto.ca/"><img src="/img/sponsorlogos/Nitro_resized.png"> </a>  </div>
-    <div class="button"> <a href="https://thesadpeopleclub.com/"><img src="/img/sponsorlogos/SadPeopleClub_resized.png"> </a>  </div>
+	<div class="mybutton"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
+	<div class="mybutton"> <a href="https://www.lowlifemtl.com/"><img src="/img/sponsorlogos/Lowlife_resized.png"> </a>  </div>
+    <div class="mybutton"> <a href="https://www.nitroskatesto.ca/"><img src="/img/sponsorlogos/Nitro_resized.png"> </a>  </div>
+    <div class="mybutton"> <a href="https://thesadpeopleclub.com/"><img src="/img/sponsorlogos/SadPeopleClub_resized.png"> </a>  </div>
 </div>
 
 <style type="text/css">
