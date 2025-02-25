@@ -79,6 +79,30 @@
                 href="http://localhost:1313/en/contact-us/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/fundraising_events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/fundraising_events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/fundraising_events/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/past-sponsors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/past-sponsors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/past-sponsors/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/register/</loc>
     <xhtml:link
                 rel="alternate"
@@ -91,17 +115,7 @@
                 href="http://localhost:1313/en/register/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/sponsors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/sponsors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/sponsors/"
-                />
+    <loc>http://localhost:1313/en/sponsorships/</loc>
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link

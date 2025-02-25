@@ -38,6 +38,20 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/en/fundraising_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/fundraising_events/</guid>
+      <description> Upcoming events </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/past-sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/past-sponsors/</guid>
+      <description> Co-organizers Co-organizers Main Sponsors Main Sponsors Sponsoring Partners Sponsoring Partners Partners Partners </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/en/register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/register/</guid>
@@ -45,10 +59,10 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/sponsors/</link>
+      <link>http://localhost:1313/en/sponsorships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/sponsors/</guid>
-      <description> Co-organizers Co-organizers Main Sponsors Main Sponsors Sponsoring Partners Sponsoring Partners Partners Partners </description>
+      <guid>http://localhost:1313/en/sponsorships/</guid>
+      <description> Our sponsorship packages are coming soon... but don&#39;t hesitate to free to reach out to us in the meantime. Click here to send us an email. </description>
     </item>
   </channel>
 </rss>

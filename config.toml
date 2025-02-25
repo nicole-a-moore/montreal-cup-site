@@ -7,8 +7,11 @@ defaultContentLanguageInSubdir = true
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
+favicon = "static/favicon.io"
 
 [params]
+
+  custom_css = ["static/css/custom.css"]
 
   mainSections = ['blog']
 
@@ -32,7 +35,7 @@ enableRobotsTXT = true
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A website for the Montreal Cup"
+    meta_description = "Offical website for the Montreal Cup"
     meta_og_title = "Montreal Cup"
     meta_og_type = "website"
 
@@ -53,29 +56,24 @@ enableRobotsTXT = true
     url = "about"
     weight = 1
 
-  [[menu.main]]
-    identifier = "sponsors"
-    name = "Sponsors"
-    url = "sponsors"
-    weight = 4
 
   [[menu.main]]
-    identifier = "course"
-    name = "Course"
-    url = "course"
-    weight = 3
+    identifier = "sponsorships"
+    name = "Sponsor us"
+    url = "sponsorships"
+    weight = 2
 
   [[menu.main]]
     identifier = "contact-us"
     name = "Contact"
     url = "contact-us"
-    weight = 5
+    weight = 4
 
   [[menu.main]]
-    identifier = "register"
-    name = "Resgister"
-    url = "register"
-    weight = 2
+    identifier = "fundraising"
+    name = "Fundraising events"
+    url = "fundraising"
+    weight = 3
     
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

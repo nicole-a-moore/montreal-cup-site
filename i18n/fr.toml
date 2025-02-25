@@ -4,11 +4,17 @@
 [sponsors]
   other = "Commanditaires"
 
+[sponsorships]
+  other = "Commanditez-nous"
+
 [course]
   other = "Parcours"
 
 [instagram]
   other = "Instagram"
+
+[fundraising]
+  other = "Levées de fonds"
 
 [contact-us]
   other = "Contact"

@@ -4,11 +4,17 @@
 [sponsors]
   other = "Sponsors"
 
+[sponsorships]
+  other = "Sponsor us"
+
 [course]
   other = "Course"
 
 [instagram]
   other = "Instagram"
+
+[fundraising]
+  other = "Fundraising events"
 
 [contact-us]
   other = "Contact"

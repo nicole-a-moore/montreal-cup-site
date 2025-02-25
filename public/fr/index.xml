@@ -38,6 +38,20 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/fr/fundraising_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/fundraising_events/</guid>
+      <description> Événements à venir </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/fr/past-sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/past-sponsors/</guid>
+      <description> Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/fr/register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/register/</guid>
@@ -45,10 +59,10 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/fr/sponsors/</link>
+      <link>http://localhost:1313/fr/sponsorships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/sponsors/</guid>
-      <description> Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires </description>
+      <guid>http://localhost:1313/fr/sponsorships/</guid>
+      <description> Nos forfaits de commanditaires sont à venir bientôt... mais n&#39;hésitez pas à nous contacter en attendant. Cliquez ici pour nous envoyer un courriel. </description>
     </item>
   </channel>
 </rss>
