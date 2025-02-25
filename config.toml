@@ -11,8 +11,6 @@ favicon = "static/favicon.io"
 
 [params]
 
-  custom_css = ["static/css/custom.css"]
-
   mainSections = ['blog']
 
   googleFonts = true
@@ -55,7 +53,6 @@ favicon = "static/favicon.io"
     name = "About"
     url = "about"
     weight = 1
-
 
   [[menu.main]]
     identifier = "sponsorships"
