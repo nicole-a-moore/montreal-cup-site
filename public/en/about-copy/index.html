@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="Montreal Cup" />
 <meta property="og:title" content=" | Montreal Cup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/en/about/" />
+<meta property="og:url" content="http://localhost:1313/en/about-copy/" />
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="">
 
@@ -39,27 +39,96 @@
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            
+            <li class="p-2">
+                <a href="about">
+                    <span>About</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="sponsorships">
+                    <span>Sponsor us</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="fundraising">
+                    <span>Fundraising events</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="contact-us">
+                    <span>Contact</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+
+                <div class="block lg:hidden">
+            <ul class="dropdown">
+                <a class="active" aria-current="page" href="/en/about-copy/">
+                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <img src="/img/logo/logo1.svg" alt="logo">
+                        </div>
+                    </div>
+                </a>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div class="dropdown-content">
+                    
+                    <a href="/en/about"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        About
+                    </a>
+                    
+                    <a href="/en/sponsorships"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Sponsor us
+                    </a>
+                    
+                    <a href="/en/fundraising"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Fundraising events
+                    </a>
+                    
+                    <a href="/en/contact-us"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Contact
+                    </a>
+                    
+                </div>
+            </ul>
+        </div>
+
+        <div class="mobileHide">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+                <a href="http://localhost:1313/">
+                    <img src="/img/logo/logo1.svg" alt="logo">
+                </a>
+
+            </div>
+        </div>
 
 
         <style type="text/css">
-            @media screen and (max-width: 480px) {
-                .mobileHide {
-                    display: none;
-                }
+            .mobileHide {
+                display: inline;
             }
-        </style>
 
-<style type="text/css">
-    @media screen and (max-width: 1050px) {
-        .mobileHide2 {
-            display: none;
-        }
-    }
-</style>
-
-        <style type="text/css">
-            @media screen and (min-width: 1200px) {
-                .hide-on-desktop2 {
+             
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                .mobileHide {
                     display: none;
                 }
             }
@@ -72,59 +141,6 @@
                 }
             }
         </style>
-
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-
-        <div class="mobileHide2">
-            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-            <a href="http://localhost:1313/">
-                <img src="/img/logo/logo1.svg" alt="logo">
-            </a>
-        </div>
-        </div>
-
-        <div class="hide-on-desktop2">
-            <div class="block lg:hidden">
-                <ul class="dropdown">
-                    <a class="active" aria-current="page" href="/en/about/">
-                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                            <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                                <img src="/img/logo/logo1.svg" alt="logo">
-                            </div>
-                        </div>
-                    </a>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    <div class="dropdown-content">
-                        
-                        <a href="/en/about"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            About
-                        </a>
-                        
-                        <a href="/en/sponsorships"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Sponsor us
-                        </a>
-                        
-                        <a href="/en/fundraising"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Fundraising events
-                        </a>
-                        
-                        <a href="/en/contact-us"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Contact
-                        </a>
-                        
-                    </div>
-                </ul>
-            </div>
-        </div>
-        
 
         
         <div class="mobileHide">
@@ -180,23 +196,10 @@
                 <ul>
                     
                         <ul class="dropdown">
-                            <a class="active" aria-current="page" href="/en/about/">EN</a>
+                            <a class="active" aria-current="page" href="/en/about-copy/">EN</a>
                             <span style="color:blue"> EN/FR </span>
                             <div class="dropdown-content">
                                 
-                                
-                                <nav class="language-switcher">
-                                    
-                                    
-                                    <a class="active" aria-current="page" href="/en/about/">EN</a>
-                                    
-                                    
-                                </nav>
-                                
-                                <li><a title="FR" href="http://localhost:1313/fr/about/">FR</a></li>
-                            </div>
-                        </ul>
-                        
                     </li>
 
                 </ul>
@@ -337,8 +340,6 @@
  <footer>
   <div class="block lg:hidden text-center">  
     
-     <a style="color:blue" href="/fr/about/">FR</a>
-     
   </div>
 
  <br>

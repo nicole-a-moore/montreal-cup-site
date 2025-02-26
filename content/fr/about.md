@@ -37,13 +37,13 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 
 <div class="mobileHide">
     <p style="text-align: center">
-        <font size="+3"> Merci à nos sponsors en 2024! </font>
+        <font size="+3"> Merci à nos commanditaires en 2024! </font>
     </p>    
 </div>
 
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+2"> Merci à nos sponsors en 2024! </font>
+        <font size="+2"> Merci à nos commanditaires en 2024! </font>
     </p>        
 </div>
 

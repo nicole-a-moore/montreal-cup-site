@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="Montreal Cup" />
 <meta property="og:title" content=" | Montreal Cup" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/en/about/" />
+<meta property="og:url" content="http://localhost:1313/en/mtl-cup/" />
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="">
 
@@ -39,27 +39,107 @@
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            
+            <li class="p-2">
+                <a href="about">
+                    <span>About</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="sponsorships">
+                    <span>Sponsor us</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="fundraising">
+                    <span>Fundraising events</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="contact-us">
+                    <span>Contact</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="2024">
+                    <span>Last year</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+
+                <div class="block lg:hidden">
+            <ul class="dropdown">
+                <a class="active" aria-current="page" href="/en/mtl-cup/">
+                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <img src="/img/logo/logo1.svg" alt="logo">
+                        </div>
+                    </div>
+                </a>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div class="dropdown-content">
+                    
+                    <a href="/en/about"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        About
+                    </a>
+                    
+                    <a href="/en/sponsorships"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Sponsor us
+                    </a>
+                    
+                    <a href="/en/fundraising"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Fundraising events
+                    </a>
+                    
+                    <a href="/en/contact-us"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Contact
+                    </a>
+                    
+                    <a href="/en/2024"
+                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        Last year
+                    </a>
+                    
+                </div>
+            </ul>
+        </div>
+
+        <div class="mobileHide">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+                <a href="http://localhost:1313/">
+                    <img src="/img/logo/logo1.svg" alt="logo">
+                </a>
+
+            </div>
+        </div>
 
 
         <style type="text/css">
-            @media screen and (max-width: 480px) {
-                .mobileHide {
-                    display: none;
-                }
+            .mobileHide {
+                display: inline;
             }
-        </style>
 
-<style type="text/css">
-    @media screen and (max-width: 1050px) {
-        .mobileHide2 {
-            display: none;
-        }
-    }
-</style>
-
-        <style type="text/css">
-            @media screen and (min-width: 1200px) {
-                .hide-on-desktop2 {
+             
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                .mobileHide {
                     display: none;
                 }
             }
@@ -72,59 +152,6 @@
                 }
             }
         </style>
-
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-
-        <div class="mobileHide2">
-            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-            <a href="http://localhost:1313/">
-                <img src="/img/logo/logo1.svg" alt="logo">
-            </a>
-        </div>
-        </div>
-
-        <div class="hide-on-desktop2">
-            <div class="block lg:hidden">
-                <ul class="dropdown">
-                    <a class="active" aria-current="page" href="/en/about/">
-                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                            <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                                <img src="/img/logo/logo1.svg" alt="logo">
-                            </div>
-                        </div>
-                    </a>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    <div class="dropdown-content">
-                        
-                        <a href="/en/about"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            About
-                        </a>
-                        
-                        <a href="/en/sponsorships"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Sponsor us
-                        </a>
-                        
-                        <a href="/en/fundraising"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Fundraising events
-                        </a>
-                        
-                        <a href="/en/contact-us"
-                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                            Contact
-                        </a>
-                        
-                    </div>
-                </ul>
-            </div>
-        </div>
-        
 
         
         <div class="mobileHide">
@@ -173,6 +200,11 @@
                     Contact
                 </a>
                 
+                <a href="/en/2024"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Last year
+                </a>
+                
             </div>
 
             
@@ -180,23 +212,10 @@
                 <ul>
                     
                         <ul class="dropdown">
-                            <a class="active" aria-current="page" href="/en/about/">EN</a>
+                            <a class="active" aria-current="page" href="/en/mtl-cup/">EN</a>
                             <span style="color:blue"> EN/FR </span>
                             <div class="dropdown-content">
                                 
-                                
-                                <nav class="language-switcher">
-                                    
-                                    
-                                    <a class="active" aria-current="page" href="/en/about/">EN</a>
-                                    
-                                    
-                                </nav>
-                                
-                                <li><a title="FR" href="http://localhost:1313/fr/about/">FR</a></li>
-                            </div>
-                        </ul>
-                        
                     </li>
 
                 </ul>
@@ -214,16 +233,19 @@
 <div class="mx-auto my-10 max-w-6xl">
   <div class="mx-3 col-span-3 lg:col-span-2 px-2">
     <h1 class="title text-5xl mb-4"></h1>
-    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p>The Montréal Cup is a one-of-a-kind inline and quad roller skating competition held on Rue Ontario in Hochelaga. Since 2022, this unique 3-day long event has been organized from the ground up by a team of passionate skaters and local skate shops.</p>
-<p>During the event, a portion of Rue Ontario is transformed into a skate park that inline and quad roller skaters from around the world are invited to ride. Skaters of all skill levels, from beginners to professional athletes, travel to Montréal from far and wide to celebrate their sport by skating the park in a riveting competition. The event is free for the public to attend and always attracts a crowd.</p>
-<p><img
-    src="/img/20240908-carosouty-montrealcup--37.jpg" alt="Photo by Caroline Souty"
-    
-    
-    /></p>
-<p>Not only does the Montreal Cup promote the practice of two re-emerging extreme sports, but it also is an event that builds community; it provides a safe space for groups that have previously been sidelined in extreme sports (women, LGBTQ+) to practice them, and it fosters moments that strengthen ties between individuals in the skating community. In previous years, thousands of people attended the event and many more viewed coverage of it via videos and photographs posted to social media.</p>
-<p>For more information, visit our Instagram page: <a href="https://www.instagram.com/montreal.cup/?hl=en">@montreal.cup</a>.</p>
-<p>Photo by Caroline Souty <a href="https://www.instagram.com/caro_skategraphy/?hl=en">@caro_skategraphy</a></p>
+    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">
+The Montréal Cup is a one-of-a-kind inline and quad roller skating competition held on Rue Ontario in Hochelaga. Since 2022, this unique 3-day long event has been organized from the ground up by a team of passionate skaters and local skate shops. 
+
+During the event, a portion of Rue Ontario is transformed into a skate park that inline and quad roller skaters from around the world are invited to ride. Skaters of all skill levels, from beginners to professional athletes, travel to Montréal from far and wide to celebrate their sport by skating the park in a riveting competition. The event is free for the public to attend and always attracts a crowd. 
+
+![Photo by Caroline Souty](/img/20240908-carosouty-montrealcup--37.jpg)
+
+Not only does the Montreal Cup promote the practice of two re-emerging extreme sports, but it also is an event that builds community; it provides a safe space for groups that have previously been sidelined in extreme sports (women, LGBTQ+) to practice them, and it fosters moments that strengthen ties between individuals in the skating community. In previous years, thousands of people attended the event and many more viewed coverage of it via videos and photographs posted to social media.
+
+For more information, visit our Instagram page: [@montreal.cup](https://www.instagram.com/montreal.cup/?hl=en).
+
+Photo by Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skategraphy/?hl=en)
+
 <!--
 <div class="mobileHide">
     <p style="text-align: center">
@@ -237,22 +259,27 @@
     </p>        
 </div>
 -->
+
 </br>
 </br>
+
 <div class="mobileHide">
     <p style="text-align: center">
         <font size="+3"> Thank you to our 2024 sponsors! </font>
     </p>    
 </div>
+
 <div class="hide-on-desktop">
     <p style="text-align: center">
         <font size="+2"> Thank you to our 2024 sponsors! </font>
     </p>        
 </div>
+
 <div class="container_coorg">
 	<div class="mybutton"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
     <div class="mybutton"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
+
 <!--
 <div class="mobileHide">
     <p style="text-align: center">
@@ -266,17 +293,20 @@
     </p>        
 </div>
 -->
+
 <div class="container_sponsors3">
 	<div class="mybutton"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
     <div class="mybutton"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
     <div class="mybutton"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
 </div>
+
 <div class="container_sponsors4">
 	<div class="mybutton"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
 	<div class="mybutton"> <a href="https://www.lowlifemtl.com/"><img src="/img/sponsorlogos/Lowlife_resized.png"> </a>  </div>
     <div class="mybutton"> <a href="https://www.nitroskatesto.ca/"><img src="/img/sponsorlogos/Nitro_resized.png"> </a>  </div>
     <div class="mybutton"> <a href="https://thesadpeopleclub.com/"><img src="/img/sponsorlogos/SadPeopleClub_resized.png"> </a>  </div>
 </div>
+
 <style type="text/css">
         .mobileHide { display: inline;}
         /* Smartphone Portrait and Landscape */
@@ -284,6 +314,7 @@
         and (min-device-width : 320px)
         and (max-device-width : 480px){  .mobileHide { display: none;}}
      </style>
+
 <style type="text/css">
 @media screen and (min-width: 481px) {
   .hide-on-desktop {
@@ -291,6 +322,7 @@
   }
 }
  </style>
+
 <!--
 <div class="mobileHide">
     <p style="text-align: center">
@@ -304,11 +336,9 @@
     </p>        
 </div>
 -->
-<p><img
-    src="/img/sponsorlogos/sponsoringpartners_grid.png" alt="Parners logos"
-    
-     style="width: 100%" 
-    /></p>
+
+![Parners logos](/img/sponsorlogos/sponsoringpartners_grid.png "100%")
+
 <!--
 <div class="mobileHide">
     <p style="text-align: center">
@@ -322,11 +352,9 @@
     </p>        
 </div>
 -->
-<p><img
-    src="/img/sponsorlogos/partners_logos.png" alt="Parners logos"
-    
-     style="width: 100%" 
-    /></p>
+
+![Parners logos](/img/sponsorlogos/partners_logos.png "100%")
+
 </div>
   </div>
 </div>
@@ -337,8 +365,6 @@
  <footer>
   <div class="block lg:hidden text-center">  
     
-     <a style="color:blue" href="/fr/about/">FR</a>
-     
   </div>
 
  <br>

@@ -1,6 +1,7 @@
 ---
 title: ''
 ---
+
 <font size="+2" > Nos forfaits de commanditaires sont à venir bientôt, mais n'hésitez pas à nous contacter en attendant.</font>
 
 <div class="container">
@@ -8,3 +9,4 @@ title: ''
 <font size="+2"> Cliquez ici pour nous envoyer un courriel </font> </p>
     </a> 
 </div>
+

@@ -1,61 +1,25 @@
 <header>
-    <div id="overlay">
-        <ul class="text-center list-none text-white text-3xl">
-            {{ range .Site.Menus.main }}
-            <li class="p-2">
-                <a href="{{ .URL | safeURL }}">
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-    
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-
-                <div class="block lg:hidden">
-            <ul class="dropdown">
-                <a class="active" aria-current="page" href="{{ .RelPermalink }}">
-                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                            <img src="/img/logo/logo1.svg" alt="logo">
-                        </div>
-                    </div>
-                </a>
-                </br>
-                </br>
-                </br>
-                </br>
-                </br>
-                <div class="dropdown-content">
-                    {{ range .Site.Menus.main }}
-                    <a href="{{ .URL | relLangURL }}"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        {{ i18n .Identifier | default .Name}}
-                    </a>
-                    {{ end }}
-                </div>
-            </ul>
-        </div>
-
-        <div class="mobileHide">
-            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-                <a href="{{ .Site.BaseURL }}">
-                    <img src="/img/logo/logo1.svg" alt="logo">
-                </a>
-
-            </div>
-        </div>
 
 
         <style type="text/css">
-            .mobileHide {
-                display: inline;
-            }
-
-            /* Smartphone Portrait and Landscape */
-            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            @media screen and (max-width: 480px) {
                 .mobileHide {
+                    display: none;
+                }
+            }
+        </style>
+
+<style type="text/css">
+    @media screen and (max-width: 1050px) {
+        .mobileHide2 {
+            display: none;
+        }
+    }
+</style>
+
+        <style type="text/css">
+            @media screen and (min-width: 1200px) {
+                .hide-on-desktop2 {
                     display: none;
                 }
             }
@@ -68,6 +32,44 @@
                 }
             }
         </style>
+
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+
+        <div class="mobileHide2">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+            <a href="{{ .Site.BaseURL }}">
+                <img src="/img/logo/logo1.svg" alt="logo">
+            </a>
+        </div>
+        </div>
+
+        <div class="hide-on-desktop2">
+            <div class="block lg:hidden">
+                <ul class="dropdown">
+                    <a class="active" aria-current="page" href="{{ .RelPermalink }}">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                                <img src="/img/logo/logo1.svg" alt="logo">
+                            </div>
+                        </div>
+                    </a>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    <div class="dropdown-content">
+                        {{ range .Site.Menus.main }}
+                        <a href="{{ .URL | relLangURL }}"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            {{ i18n .Identifier | default .Name}}
+                        </a>
+                        {{ end }}
+                    </div>
+                </ul>
+            </div>
+        </div>
+        
 
         {{ if eq .Site.Language.Lang "en" }}
         <div class="mobileHide">
