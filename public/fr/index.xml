@@ -16,32 +16,18 @@
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan dapibus purus, vel maximus erat facilisis vel. Suspendisse eu ipsum consequat, sodales nulla vel, faucibus velit. Fusce imperdiet lacus nec cursus auctor. In vulputate arcu et nulla placerat, nec pulvinar quam rhoncus. Praesent vel placerat nunc. Mauris elit felis, pulvinar egestas risus ut, fermentum ullamcorper orci. Integer tempor, neque sed fermentum eleifend, ligula est tincidunt purus, sodales semper elit enim ut mi.</description>
     </item>
     <item>
-      <title></title>
+      <title>À propos de</title>
       <link>http://localhost:1313/fr/about/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/about/</guid>
       <description>La Montréal Cup est une compétition de patin à roues alignées et quad, unique en son genre, qui se déroule sur la rue Ontario, dans Hochelaga. Depuis 2022, cet événement unique de trois jours est organisé de A à Z par une équipe de patineur.euses passionné.es et de boutiques de patins locales.&#xA;Pendant l’événement, une partie de la rue Ontario est transformée en un skatepark que les patineur.euses inline ou quad du monde entier sont invités à parcourir.</description>
     </item>
     <item>
-      <title></title>
+      <title>Parcours</title>
       <link>http://localhost:1313/fr/course/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/course/</guid>
       <description>Conception et construction du parcours par Maxime Kind, Yann Passerieu, Phil Secco, Jayson Roy et Spinworks.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/fr/contact-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/contact-us/</guid>
-      <description> Suivez-nous sur Instagram Envoyez-nous un courriel </description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/fr/fundraising_events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/fundraising_events/</guid>
-      <description> </description>
     </item>
     <item>
       <title></title>
@@ -58,7 +44,21 @@
       <description> À venir! Suivez-nous sur Instagram pour les dernières nouvelles concernant l&#39;inscription </description>
     </item>
     <item>
-      <title></title>
+      <title>Contact</title>
+      <link>http://localhost:1313/fr/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/contact-us/</guid>
+      <description> Suivez-nous sur Instagram Envoyez-nous un courriel </description>
+    </item>
+    <item>
+      <title>Événement de financement</title>
+      <link>http://localhost:1313/fr/fundraising_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/fundraising_events/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Offres de commandites</title>
       <link>http://localhost:1313/fr/sponsorships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/sponsorships/</guid>

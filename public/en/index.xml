@@ -23,32 +23,18 @@
       <description> Thank you to our 2024 sponsors! Thank you to our 2024 sponsors! </description>
     </item>
     <item>
-      <title></title>
+      <title>About</title>
       <link>http://localhost:1313/en/about/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/about/</guid>
       <description>The Montréal Cup is a one-of-a-kind inline and quad roller skating competition held on Rue Ontario in Hochelaga. Since 2022, this unique 3-day long event has been organized from the ground up by a team of passionate skaters and local skate shops.&#xA;During the event, a portion of Rue Ontario is transformed into a skate park that inline and quad roller skaters from around the world are invited to ride. Skaters of all skill levels, from beginners to professional athletes, travel to Montréal from far and wide to celebrate their sport by skating the park in a riveting competition.</description>
     </item>
     <item>
-      <title></title>
+      <title>Course</title>
       <link>http://localhost:1313/en/course/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/course/</guid>
       <description>Design and construction of the course by Maxime Kind, Yann Passerieu, Phil Secco, Jayson Roy and Spinworks.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/en/contact-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/contact-us/</guid>
-      <description> Follow us on Instagram Send us an email </description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/en/fundraising_events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/fundraising_events/</guid>
-      <description> </description>
     </item>
     <item>
       <title></title>
@@ -58,14 +44,28 @@
       <description> Co-organizers Co-organizers Main Sponsors Main Sponsors Sponsoring Partners Sponsoring Partners Partners Partners </description>
     </item>
     <item>
-      <title></title>
+      <title>Contact us</title>
+      <link>http://localhost:1313/en/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contact-us/</guid>
+      <description> Follow us on Instagram Send us an email </description>
+    </item>
+    <item>
+      <title>Fundraising events</title>
+      <link>http://localhost:1313/en/fundraising_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/fundraising_events/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Register</title>
       <link>http://localhost:1313/en/register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/register/</guid>
       <description> Coming soon! Follow us on Instagram for the latest news on registration </description>
     </item>
     <item>
-      <title></title>
+      <title>Sponsorship</title>
       <link>http://localhost:1313/en/sponsorships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/sponsorships/</guid>

@@ -70,6 +70,30 @@
                 href="http://localhost:1313/en/products/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/past-sponsors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/past-sponsors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/past-sponsors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/contact-us/</loc>
     <xhtml:link
                 rel="alternate"
@@ -94,18 +118,6 @@
                 href="http://localhost:1313/en/fundraising_events/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/past-sponsors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/past-sponsors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/past-sponsors/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/register/</loc>
     <xhtml:link
                 rel="alternate"
@@ -128,18 +140,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/sponsorships/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>

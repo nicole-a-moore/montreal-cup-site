@@ -1,5 +1,5 @@
 ---
-title: 'Sponsorship'
+title: 'Sponsor us'
 ---
 
 <div class="container">
