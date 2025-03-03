@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Contact us'
 ---
 
 <div class="container">

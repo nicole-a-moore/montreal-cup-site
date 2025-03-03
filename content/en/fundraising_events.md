@@ -1,4 +1,5 @@
 +++
+title = "Fundraising events"
 aliases = ["fundraising"]
 +++
 

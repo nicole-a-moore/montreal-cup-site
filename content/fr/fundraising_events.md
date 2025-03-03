@@ -1,4 +1,5 @@
 +++
+title = "Événement de financement"
 aliases = ["fundraising"]
 +++
 
