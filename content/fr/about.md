@@ -17,7 +17,6 @@ Pour plus d’informations, visitez notre page Instagram: [@montreal.cup](https:
 
 Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skategraphy/?hl=en)
 
-
 <!--
 <div class="mobileHide">
     <p style="text-align: center">
