@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Forfaits'
 ---
 
 <div class="container">
