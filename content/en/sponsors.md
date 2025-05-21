@@ -35,23 +35,6 @@ alias = ["sponsors"]
 </div>
 -->
 
-<div class="container_sponsors1">
-  <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade.png"> </a> </div>   
-</div>
-
-<div class="container_sponsors3">
-	<div class="button"> <a href="https://www.echoskates.com/"><img src="/img/sponsorlogos/Echo.png"> </a>  </div>
-     <div class="button"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
-    <div class="button"> <a href="https://impalarollerskates.com/"><img src="/img/sponsorlogos/Impala.jpg"> </a> </div>
-</div>
-
-<div class="container_sponsors3">
-	<div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
-	<div class="button"> <a href="https://brunnyhardcore.com/"><img src="/img/sponsorlogos/Brunny_resized.jpg"> </a>  </div>
-    <div class="button"> <a href="https://www.skatepro.ca/en/"><img src="/img/sponsorlogos/Skatepro.jpg"> </a>  </div>
-</div>
-
-
 <style type="text/css">
         .mobileHide { display: inline;}
         /* Smartphone Portrait and Landscape */
@@ -67,6 +50,23 @@ alias = ["sponsors"]
   }
 }
  </style>
+
+<div class="container_sponsors1">
+  <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade.png"> </a> </div>   
+</div>
+
+
+<div class="container_sponsors3">
+    <div class="button"> <a href="https://www.echoskates.com/"><img src="/img/sponsorlogos/Echo.png"> </a>  </div>
+    <div class="button"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
+    <div class="button"> <a href="https://impalarollerskates.com/"><img src="/img/sponsorlogos/Impala.jpg"> </a> </div>
+ </div>
+
+<div class="container_sponsors3">
+    <div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
+    <div class="button"> <a href="https://brunnyhardcore.com/"><img src="/img/sponsorlogos/Brunny_resized.jpg"> </a>  </div>
+    <div class="button"> <a href="https://www.skatepro.ca/en/"><img src="/img/sponsorlogos/Skatepro.jpg"> </a>  </div>
+</div>
 
 <!--
 <div class="mobileHide">

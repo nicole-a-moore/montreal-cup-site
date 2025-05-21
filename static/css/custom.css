@@ -69,7 +69,7 @@ table {
   .container_sponsors3 {
 	display: grid;
 	width: 100%;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	gap: 1em;
 	padding-top: 10px;
 	margin: 0 auto;
