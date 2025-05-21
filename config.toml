@@ -55,16 +55,16 @@ favicon = "static/favicon.io"
     weight = 1
 
   [[menu.main]]
-    identifier = "sponsorships"
-    name = "Sponsor us"
-    url = "sponsorships"
-    weight = 2
-
-  [[menu.main]]
     identifier = "contact-us"
     name = "Contact"
     url = "contact-us"
     weight = 4
+
+  [[menu.main]]
+    identifier = "sponsors"
+    name = "Sponsors"
+    url = "sponsors"
+    weight = 2
 
   [[menu.main]]
     identifier = "fundraising"

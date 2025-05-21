@@ -30,116 +30,36 @@
 
 <meta property="og:image" content="http://localhost:1313/">
 
-<meta name="description" content=" Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires " />
-<meta property="og:description" content=" Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires " />
-<meta property="twitter:description" content=" Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires " />
+<meta name="description" content=" DEVENIR COMMANDITAIRE! " />
+<meta property="og:description" content=" DEVENIR COMMANDITAIRE! " />
+<meta property="twitter:description" content=" DEVENIR COMMANDITAIRE! " />
 
 
 </head>
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
-    <div id="overlay">
-        <ul class="text-center list-none text-white text-3xl">
-            
-            <li class="p-2">
-                <a href="about">
-                    <span>About</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="sponsorships">
-                    <span>Sponsorship opportunities</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="fundraising">
-                    <span>Fundraising events</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="past-sponsors">
-                    <span>Past sponsors</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="contact-us">
-                    <span>Contact</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-    
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-
-                <div class="block lg:hidden">
-            <ul class="dropdown">
-                <a class="active" aria-current="page" href="/fr/sponsors/">
-                    <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
-                            <img src="/img/logo/logo1.svg" alt="logo">
-                        </div>
-                    </div>
-                </a>
-                </br>
-                </br>
-                </br>
-                </br>
-                </br>
-                <div class="dropdown-content">
-                    
-                    <a href="/fr/about"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        À propos de
-                    </a>
-                    
-                    <a href="/fr/sponsorships"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        Sponsorship opportunities
-                    </a>
-                    
-                    <a href="/fr/fundraising"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        Fundraising events
-                    </a>
-                    
-                    <a href="/fr/past-sponsors"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        Commanditaires
-                    </a>
-                    
-                    <a href="/fr/contact-us"
-                        class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        Contact
-                    </a>
-                    
-                </div>
-            </ul>
-        </div>
-
-        <div class="mobileHide">
-            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
-                <a href="http://localhost:1313/">
-                    <img src="/img/logo/logo1.svg" alt="logo">
-                </a>
-
-            </div>
-        </div>
 
 
         <style type="text/css">
-            .mobileHide {
-                display: inline;
-            }
-
-             
-            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            @media screen and (max-width: 480px) {
                 .mobileHide {
+                    display: none;
+                }
+            }
+        </style>
+
+<style type="text/css">
+    @media screen and (max-width: 1050px) {
+        .mobileHide2 {
+            display: none;
+        }
+    }
+</style>
+
+        <style type="text/css">
+            @media screen and (min-width: 1200px) {
+                .hide-on-desktop2 {
                     display: none;
                 }
             }
@@ -152,6 +72,59 @@
                 }
             }
         </style>
+
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+
+        <div class="mobileHide2">
+            <div class="items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+            <a href="http://localhost:1313/">
+                <img src="/img/logo/logo1.svg" alt="logo">
+            </a>
+        </div>
+        </div>
+
+        <div class="hide-on-desktop2">
+            <div class="block lg:hidden">
+                <ul class="dropdown">
+                    <a class="active" aria-current="page" href="/fr/sponsors/">
+                        <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                            <div class="flex cursor-pointer items-center w-15 h-10 py-2 rounded mopen">
+                                <img src="/img/logo/logo1.svg" alt="logo">
+                            </div>
+                        </div>
+                    </a>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    <div class="dropdown-content">
+                        
+                        <a href="/fr/about"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            À propos de
+                        </a>
+                        
+                        <a href="/fr/sponsors"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Commanditaires
+                        </a>
+                        
+                        <a href="/fr/fundraising"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Événement de financement
+                        </a>
+                        
+                        <a href="/fr/contact-us"
+                            class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                            Contact
+                        </a>
+                        
+                    </div>
+                </ul>
+            </div>
+        </div>
+        
 
         
         <div class="mobileHide">
@@ -185,19 +158,14 @@
                     À propos de
                 </a>
                 
-                <a href="/fr/sponsorships"
+                <a href="/fr/sponsors"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Sponsorship opportunities
+                    Commanditaires
                 </a>
                 
                 <a href="/fr/fundraising"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Fundraising events
-                </a>
-                
-                <a href="/fr/past-sponsors"
-                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Commanditaires
+                    Événement de financement
                 </a>
                 
                 <a href="/fr/contact-us"
@@ -216,6 +184,19 @@
                             <span style="color:blue"> EN/FR </span>
                             <div class="dropdown-content">
                                 
+                                
+                                <nav class="language-switcher">
+                                    
+                                    
+                                    <a class="active" aria-current="page" href="/fr/sponsors/">FR</a>
+                                    
+                                    
+                                </nav>
+                                
+                                <li><a title="EN" href="http://localhost:1313/en/sponsors/">EN</a></li>
+                            </div>
+                        </ul>
+                        
                     </li>
 
                 </ul>
@@ -233,40 +214,48 @@
 <div class="mx-auto my-10 max-w-6xl">
   <div class="mx-3 col-span-3 lg:col-span-2 px-2">
     <h1 class="title text-5xl mb-4"></h1>
-    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><div class="mobileHide">
+    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><!--
+<div class="mobileHide">
     <p style="text-align: center">
         <font size="+3"> Coorganiseurs </font>
     </p>    
 </div>
+
 <div class="hide-on-desktop">
     <p style="text-align: center">
         <font size="+2"> Coorganiseurs </font>
     </p>        
 </div>
+-->
 <div class="container_coorg">
 	<div class="button"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
     <div class="button"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
+<!--
 <div class="mobileHide">
     <p style="text-align: center">
         <font size="+3"> Commanditaires Principaux </font>
     </p>    
 </div>
+
 <div class="hide-on-desktop">
     <p style="text-align: center">
         <font size="+2"> Commanditaires Principaux </font>
     </p>        
 </div>
-<div class="container_sponsors3">
-	<div class="button"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
-    <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
-    <div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
+-->
+<div class="container_sponsors1">
+  <div class="button"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade.png"> </a> </div>   
 </div>
-<div class="container_sponsors4">
-	<div class="button"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
-	<div class="button"> <a href="https://www.lowlifemtl.com/"><img src="/img/sponsorlogos/Lowlife_resized.png"> </a>  </div>
-    <div class="button"> <a href="https://www.nitroskatesto.ca/"><img src="/img/sponsorlogos/Nitro_resized.png"> </a>  </div>
-    <div class="button"> <a href="https://thesadpeopleclub.com/"><img src="/img/sponsorlogos/SadPeopleClub_resized.png"> </a>  </div>
+<div class="container_sponsors3">
+	<div class="button"> <a href="https://www.echoskates.com/"><img src="/img/sponsorlogos/Echo.png"> </a>  </div>
+     <div class="button"> <a href="https://k2skates.com/"><img src="/img/sponsorlogos/K2_resized.png"> </a>  </div>
+    <div class="button"> <a href="https://impalarollerskates.com/"><img src="/img/sponsorlogos/Impala.jpg"> </a> </div>
+</div>
+<div class="container_sponsors3">
+	<div class="button"> <a href="https://riedellskates.com/"><img src="/img/sponsorlogos/Riedell_resized.png"> </a> </div>
+	<div class="button"> <a href="https://brunnyhardcore.com/"><img src="/img/sponsorlogos/Brunny_resized.jpg"> </a>  </div>
+    <div class="button"> <a href="https://www.skatepro.ca/en/"><img src="/img/sponsorlogos/Skatepro.jpg"> </a>  </div>
 </div>
 <style type="text/css">
         .mobileHide { display: inline;}
@@ -282,37 +271,47 @@
   }
 }
  </style>
+<!--
 <div class="mobileHide">
     <p style="text-align: center">
         <font size="+3"> Commanditaires Partenaires </font>
     </p>    
 </div>
+
 <div class="hide-on-desktop">
     <p style="text-align: center">
         <font size="+2"> Commanditaires Partenaires </font>
     </p>        
 </div>
+-->
 <p><img
     src="/img/sponsorlogos/sponsoringpartners_grid.png" alt="Parners logos"
     
      style="width: 100%" 
     /></p>
+<!--
 <div class="mobileHide">
     <p style="text-align: center">
         <font size="+3"> Partenaires </font>
     </p>    
 </div>
+
 <div class="hide-on-desktop">
     <p style="text-align: center">
         <font size="+2"> Partenaires </font>
     </p>        
 </div>
+-->
 <p><img
     src="/img/sponsorlogos/partners_logos.png" alt="Parners logos"
     
      style="width: 100%" 
     /></p>
-</div>
+<div class="container">
+	<div style="background-color:white;" class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg"> <a style="text-decoration:none; font-weight:200" href="/fr/sponsor-us/"><p style="text-align: center">
+<font size="+2"> DEVENIR COMMANDITAIRE! </font> </p>
+    </a> 
+</div></div>
   </div>
 </div>
 
@@ -322,6 +321,8 @@
  <footer>
   <div class="block lg:hidden text-center">  
     
+     <a style="color:blue" href="/en/sponsors/">EN</a>
+     
   </div>
 
  <br>

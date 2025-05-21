@@ -89,7 +89,7 @@
         </p>
         {{ end }}
 
-        <img src="/img/logo/co-orgs.png" alt="coorgs logos" width = "60%">
+        <img src="/img/logo/co-orgs.png" alt="coorgs logos" width = "80%">
         <br>
 
     </center>
@@ -116,12 +116,12 @@
     <br>
     <br>
     <p style="text-align: center">
-        <font size="+3"> Thank you to our 2024 sponsors! </font>
+        <font size="+3"> Thank you to our sponsors! </font>
     </p>    
 </div>
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+1"> Thank you to our 2024 sponsors! </font>
+        <font size="+1"> Thank you to our sponsors! </font>
     </p>        
 </div>
 {{ else }}
@@ -130,12 +130,12 @@
     <br>
     <br>
     <p style="text-align: center">
-        <font size="+3"> Merci à nos commanditaires en 2024! </font>
+        <font size="+3"> Merci à nos commanditaires! </font>
     </p>    
 </div>
 <div class="hide-on-desktop">
     <p style="text-align: center">
-        <font size="+1"> Merci à nos commanditaires en 2024! </font>
+        <font size="+1"> Merci à nos commanditaires! </font>
     </p>        
 </div>
 {{ end }}
@@ -164,11 +164,26 @@
              </div> -->
         </p>
         {{ end }}
-        <br>
-        <img src="/img/logo/co-orgs.png" alt="coorgs logos" width = "80%">
-        <img src="/img/logo/sponsor_logos.png" alt="Sponsor logos" width = "75%">
+        <img src="/img/sponsorlogos/biggerpartners_grid.png" alt="coorgs logos" width = "80%">
+        <img src="/img/sponsorlogos/sponsoringpartners_grid.png" alt="coorgs logos" width = "80%">
+        <img src="/img/sponsorlogos/partners_logos.png" alt="Sponsor logos" width = "75%">
         <br>
       
+        {{ if eq .Site.Language.Lang "en" }}
+        <div class="container">
+            <div style="background-color:white;" class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg"> <a style="text-decoration:none; font-weight:200" href="/en/sponsor-us/"><p style="text-align: center">
+        <font size="+2"> BECOME A SPONSOR! </font> </p>
+            </a> 
+        </div>
+        {{ else }}
+        <div class="container">
+            <div style="background-color:white;" class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg"> <a style="text-decoration:none; font-weight:200" href="/fr/sponsor-us/"><p style="text-align: center">
+        <font size="+2"> DEVENIR COMMANDITAIRE! </font> </p>
+            </a> 
+        </div>
+
+        {{ end }}
+
     </center> 
 
     <!-- {{- partial "strip.html" . -}} -->

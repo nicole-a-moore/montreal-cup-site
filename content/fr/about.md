@@ -31,6 +31,7 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 </div>
 -->
 
+<!--
 </br>
 </br>
 
@@ -50,6 +51,7 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 	<div class="mybutton"> <a href="https://solo-inline.com/"><img src="/img/sponsorlogos/BoutiqueSoloInline.png"></a> </div> 
     <div class="mybutton"> <a href="https://hochelaga.ca/"><img src="/img/sponsorlogos/Hochelaga2.png"></a> </div>
 </div>
+-->
 
 <!--
 <div class="mobileHide">
@@ -65,6 +67,7 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 </div>
 -->
 
+<!--
 <div class="container_sponsors3">
 	<div class="mybutton"> <a href="https://aciervulcan.com/"><img src="/img/sponsorlogos/AcierVulcan.png"> </a>  </div>
     <div class="mybutton"> <a href="https://www.rollerblade.com/canada/"><img src="/img/sponsorlogos/Rollerblade_resized.png"> </a> </div>
@@ -93,6 +96,7 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
   }
 }
  </style>
+ -->
 
 <!--
 <div class="mobileHide">
@@ -108,7 +112,9 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 </div>
 -->
 
+<!--
 ![Parners logos](/img/sponsorlogos/sponsoringpartners_grid.png "100%")
+-->
 
 <!--
 <div class="mobileHide">
@@ -124,5 +130,6 @@ Photo par Caroline Souty [@caro_skategraphy](https://www.instagram.com/caro_skat
 </div>
 -->
 
+<!--
 ![Parners logos](/img/sponsorlogos/partners_logos.png "100%")
-
+-->

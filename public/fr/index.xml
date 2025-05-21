@@ -31,17 +31,17 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/fr/past-sponsors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/past-sponsors/</guid>
-      <description> Coorganiseurs Coorganiseurs Commanditaires Principaux Commanditaires Principaux Commanditaires Partenaires Commanditaires Partenaires Partenaires Partenaires </description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/fr/register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/register/</guid>
       <description> À venir! Suivez-nous sur Instagram pour les dernières nouvelles concernant l&#39;inscription </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/fr/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/sponsors/</guid>
+      <description> DEVENIR COMMANDITAIRE! </description>
     </item>
     <item>
       <title>Contact</title>
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>Offres de commandites</title>
-      <link>http://localhost:1313/fr/sponsorships/</link>
+      <link>http://localhost:1313/fr/sponsor-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/sponsorships/</guid>
+      <guid>http://localhost:1313/fr/sponsor-us/</guid>
       <description> Forfaits de commandite 2025 Vous êtes intéressé? Nous envoyer un courriel! </description>
     </item>
   </channel>

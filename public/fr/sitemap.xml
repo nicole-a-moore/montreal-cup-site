@@ -67,18 +67,6 @@
                 href="http://localhost:1313/fr/products/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/past-sponsors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/past-sponsors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/past-sponsors/"
-                />
-  </url><url>
     <loc>http://localhost:1313/fr/register/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,6 +77,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/register/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/sponsors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/sponsors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/sponsors/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/categories/</loc>
@@ -127,16 +127,16 @@
                 href="http://localhost:1313/fr/fundraising_events/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/sponsorships/</loc>
+    <loc>http://localhost:1313/fr/sponsor-us/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/sponsorships/"
+                href="http://localhost:1313/en/sponsor-us/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/sponsorships/"
+                href="http://localhost:1313/fr/sponsor-us/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/tags/</loc>
